@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
+    <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800 sticky">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <div className="flex items-center">
             <img src="./icons/logo.svg" className="ml-5 h-14 w-14" alt="Adetunji's Adeyinka's Logo" />
