@@ -5,6 +5,7 @@ import { useEffect } from 'react'
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import styles from '../styles/Home.module.css'
+import Footer from './components/Footer';
 import Navbar from './components/Navbar'
 
 const Home: NextPage = () => {
@@ -147,7 +148,7 @@ const Home: NextPage = () => {
         detectRetina: true,
       }}
     />
-    
+    <Footer/>
     </>
   )
 };
