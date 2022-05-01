@@ -24,7 +24,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Navbar/>
-      <div className="mt-16 z-50">
+      <div className="mt-16" style={{zIndex: -2}}>
         <h1 className="text-white ml-9 font-semibold text-4xl">I'm</h1>
         <br/>
         <h1 className="text-white ml-9 font-semibold leading-10 -mt-4 text-4xl">Adetunji <br/>Adeyinka</h1>
