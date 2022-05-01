@@ -23,8 +23,9 @@ function about() {
       <div className='mt-12'>
         <h1 className="text-white ml-9 font-semibold leading-10 -mt-4 text-4xl">My Services</h1>
         <hr className="light-blue w-[50px] h-1 ml-[35px] border-transparent my-4"/>
-        <div className="mx-auto mt-10">
-          <img src="icons/Rwd.svg" alt="Responsive Web Design - Adetunji Adeyinka" />
+        <div className="mx-auto mt-10 items-center justify-center text-center">
+          <img src="icons/Rwd.svg" alt="Responsive Web Design - Adetunji Adeyinka" className="w-[80px] h-[80px] mx-auto items-center justify-center text-center mb-5"/>
+          <p className="text-white">Responsive Web Design is an approach which makes webpages or websites render well on all varety of devices, window or screen sizes. Recent works also considers the viewer proximity as part of the viewing context as an extension for RWD.</p>
         </div>
       </div>
       <ParticleComponent/>
