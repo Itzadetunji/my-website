@@ -7,7 +7,7 @@ function about() {
   return (
     <>
       <Navbar/>
-      <div className="mt-16">
+      <div className="mt-32">
         <h1 className="text-white ml-9 font-semibold leading-10 -mt-4 text-4xl">About Me</h1>
         <hr className="light-blue w-[100px] h-1 ml-[35px] border-transparent my-4"/>
       </div>
