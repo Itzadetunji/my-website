@@ -6,6 +6,7 @@ import styles from '../styles/Home.module.css'
 import Footer from './components/Footer';
 import Navbar from './components/Navbar'
 import ParticleComponent from './components/ParticleComponent'
+import Social_Links from './components/Social_Links'
 
 const Home: NextPage = () => {
   return (
@@ -21,7 +22,7 @@ const Home: NextPage = () => {
           <img src="/icons/learn-more.svg" alt="" className="w-auto h-5 mt-2"/>
           <img src="/images/me.jpeg" className="mt-5 rounded-full"/>
         </div>
-        
+        <Social_Links/>
       </div>
       <ParticleComponent/>
       <Footer/>
