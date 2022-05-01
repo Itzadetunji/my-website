@@ -21,13 +21,7 @@ const Home: NextPage = () => {
           <img src="/icons/learn-more.svg" alt="" className="w-auto h-5 mt-2"/>
           <img src="/images/me.jpeg" className="mt-5 rounded-full"/>
         </div>
-        <div className="flex content-evenly flex-wrap mt-5">
-          <div className="mx-auto">
-            <img src="/icons/facebook.svg" alt="" className="w-8 h-8 mx-auto inline"/>
-            <img src="/icons/instagram.svg" alt="" className="w-8 h-8 inline mx-3"/>
-            <img src="/icons/twitter.svg" alt="" className="w-8 h-8 mx-auto inline"/>
-          </div>
-        </div>
+        
       </div>
       <ParticleComponent/>
       <Footer/>

@@ -37,7 +37,8 @@ function about() {
         </div>
       </div>
       <div className="mt-12">
-
+        <h1 className="text-white ml-9 font-semibold leading-10 -mt-4 text-4xl">My Tech Stack</h1>
+        <hr className="light-blue w-[50px] h-1 ml-[35px] border-transparent my-4"/>
       </div>
       <ParticleComponent/>
       <Footer/>
