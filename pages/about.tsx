@@ -24,7 +24,7 @@ function about() {
         <h1 className="text-white ml-9 font-semibold leading-10 -mt-4 text-4xl">My Services</h1>
         <hr className="light-blue w-[50px] h-1 ml-[35px] border-transparent my-4"/>
         <div className="mx-auto mt-10">
-          <img src="icons/Rwd.svg" alt="" />
+          <img src="icons/Rwd.svg" alt="Responsive Web Design - Adetunji Adeyinka" />
         </div>
       </div>
       <ParticleComponent/>
