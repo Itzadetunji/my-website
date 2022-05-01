@@ -13,7 +13,12 @@ function about() {
       </div>
       <div className="w-64 h-auto mx-auto mt-8 items-center justify-center">
         <img src="/images/me.jpeg" className="mt-5 rounded-full"/>
-        <p className="mx-auto mt-8 items-center justify-between text-white">I am a fullstack web developer based in Lagos State, Nigeria. I started my coding journey in 2017 through a friend. I love finding new ways to solve existing problems ;) <br/> I also have this excessive hunger to continue learning new things everyday 😅</p>
+        <p className="mx-auto mt-8 items-center justify-between text-white text-center">I am a fullstack web developer based in Lagos State, Nigeria.</p>
+        <p className="mx-auto mt-2 items-center justify-between text-white text-center">I love finding new ways to solve existing problems ;) </p>
+        <p className="mx-auto mt-2 items-center justify-between text-white text-center">I also have this excessive hunger to continue learning new things everyday 😅</p>
+        <div className="mx-auto items-center justify-center text-center mt-4">
+          <button className="bg-transparent text-[#7BC3D1] rounded-full w-[120px] h-10 border-2 border-[#7BC3D1]">Download CV</button>
+        </div>
       </div>
       <ParticleComponent/>
       <Footer/>
