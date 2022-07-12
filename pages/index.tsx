@@ -18,8 +18,12 @@ const Home: NextPage = () => {
           <p className='text-white font-[600] text-[55px] leading-[60px]'>Adetunji Adeyinka</p>
           <hr className='light-blue border-[3px] w-[224px] mt-[35px]'/>
         </div>
-        <div>
-          <img src="" alt="" />
+        <div className='text-white'>
+          <img src="./images/me.jpeg" alt="" />
+          <div className='mt-[100px] text-[25px]'>
+            <p>I’m a fullstack web developer who provides quality services of industry satandard.</p>
+            <p className='mt-[20px]'>I love finding new ways to solve existing problems ;)</p>
+          </div>
         </div>
       </div>
       <ParticleComponent/>
