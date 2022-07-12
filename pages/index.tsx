@@ -16,7 +16,7 @@ interface HomePageProps {
   height: string
 }
 
-const index : React.FC<HomePageProps> = ({link, text}) => {
+const index : React.FC<HomePageProps> = ({link, text, width, height}) => {
   return (
     <>
       <Navbar/>

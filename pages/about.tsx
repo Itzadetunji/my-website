@@ -5,6 +5,11 @@ import Navbar from './components/Navbar'
 import ParticleComponent from './components/ParticleComponent'
 
 const about = () => {
+  interface serviceCardProps {
+    icon: string,
+    title: string,
+    text: string
+  }
   return (
     <>
       <Navbar/>

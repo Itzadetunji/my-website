@@ -6,7 +6,7 @@ interface serviceCardProps {
   text: string
 }
 
-const Button : React.FC<serviceCardProps> = ({icon, title, text}) => {
+const serviceCard : React.FC<serviceCardProps> = ({icon, title, text}) => {
   return (
     <div>serviceCard</div>
   )
