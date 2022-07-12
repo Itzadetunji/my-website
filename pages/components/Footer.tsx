@@ -1,9 +1,12 @@
 import React from 'react'
 
-function Footer() {
+const Footer = () => {
+  const date = new Date().getFullYear();
   return (
-    <div className="text-center bg-[#0A141D] h-10 mt-8">
-      <p className="mx-auto mt-8 items-center justify-center text-white text-[13px]"> Copyright © 2022 | Adetunji Adeyinka </p>
+    <div className="text-center dark-blue h-[116px] mt-8 text-[17px]">
+      <div className='py-[40px]'>
+        <p className="mx-auto mt-8 items-center justify-center text-white text-[13px]">Copyright <span className='light-blue-text'> © </span>{`${date}`} <span className='light-blue-text'> | </span> Adetunji Adeyinka</p>
+      </div>
     </div>
   )
 }
