@@ -9,7 +9,12 @@ import ParticleComponent from './components/ParticleComponent'
 import Social_Links from './components/Social_Links'
 import Button from './components/Button'
 
-const Home: NextPage = () => {
+interface HomePageProps {
+  link: string,
+  text: string
+}
+
+const index : React.FC<HomePageProps> = ({link, text}) => {
   return (
     <>
       <Navbar/>
@@ -29,7 +34,7 @@ const Home: NextPage = () => {
       </div>
       {/* <ParticleComponent/> */}
       <div className='mt-[100px]'>
-        <Button/>
+        <Button link={'#'} text={'Know More'}/>
       </div>
       <div className='mt-[95px]'>
         <Social_Links/>
@@ -38,4 +43,4 @@ const Home: NextPage = () => {
     </>
   )
 };
-export default Home
+export default index
