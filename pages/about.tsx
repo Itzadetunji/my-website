@@ -1,15 +1,11 @@
+import { NextPage } from 'next'
 import React from 'react'
 import Button from './components/Button'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import ParticleComponent from './components/ParticleComponent'
 
-const about = () => {
-  interface serviceCardProps {
-    icon: string,
-    title: string,
-    text: string
-  }
+const about: NextPage = () => {
   return (
     <>
       <Navbar/>

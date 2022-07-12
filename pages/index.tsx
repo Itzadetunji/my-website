@@ -9,14 +9,7 @@ import ParticleComponent from './components/ParticleComponent'
 import Social_Links from './components/Social_Links'
 import Button from './components/Button'
 
-interface HomePageProps {
-  link: string,
-  text: string,
-  width: string,
-  height: string
-}
-
-const index : React.FC<HomePageProps> = ({link, text, width, height}) => {
+const index : NextPage = () => {
   return (
     <>
       <Navbar/>
