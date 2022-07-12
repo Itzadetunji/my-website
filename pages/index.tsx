@@ -11,7 +11,9 @@ import Button from './components/Button'
 
 interface HomePageProps {
   link: string,
-  text: string
+  text: string,
+  width: string,
+  height: string
 }
 
 const index : React.FC<HomePageProps> = ({link, text}) => {
@@ -34,7 +36,7 @@ const index : React.FC<HomePageProps> = ({link, text}) => {
       </div>
       {/* <ParticleComponent/> */}
       <div className='mt-[100px]'>
-        <Button link={'#'} text={'Know More'}/>
+        <Button link={'#'} text={'Know More'} height={'260px'} width={'94px'}/>
       </div>
       <div className='mt-[95px]'>
         <Social_Links/>
