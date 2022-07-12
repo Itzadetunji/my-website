@@ -2,13 +2,15 @@ import { NextPage } from 'next'
 import React from 'react'
 
 interface cardProps {
-
+  icon: string,
+  text: string,
+  title: string
 }
 
-const card: React.FC<cardProps> = () => {
+const Card: React.FC<cardProps> = () => {
   return (
     <div>card</div>
   )
 }
 
-export default card
+export default Card
