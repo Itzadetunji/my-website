@@ -26,7 +26,10 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
-      <ParticleComponent/>
+      {/* <ParticleComponent/> */}
+      <div>
+        <Social_Links/>
+      </div>
       <Footer/>
     </>
   )
