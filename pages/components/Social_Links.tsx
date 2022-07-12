@@ -1,6 +1,7 @@
+import { NextPage } from 'next'
 import React from 'react'
 
-function Social_Links() {
+const Social_Links: NextPage = () => {
   return (
     <div className="flex content-evenly flex-wrap mt-5">
       <div className="mx-auto">

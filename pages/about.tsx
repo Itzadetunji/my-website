@@ -3,7 +3,7 @@ import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import ParticleComponent from './components/ParticleComponent'
 
-function about() {
+const about = () => {
   return (
     <>
       <Navbar/>
