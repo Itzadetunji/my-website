@@ -12,7 +12,9 @@ const Home: NextPage = () => {
   return (
     <>
       <Navbar/>
-      
+      <div className=''>
+
+      </div>
       <ParticleComponent/>
       <Footer/>
     </>
