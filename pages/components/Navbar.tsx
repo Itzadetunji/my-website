@@ -7,10 +7,11 @@ function Navbar() {
         <div className="flex items-center">
             <img src="./icons/logo.svg" className="h-[65px] w-[65px]" alt="Adetunji Adeyinka's Logo" />
             {/* <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span> */}
+            <img src="./icons/logo.svg" className="h-[65px] w-[65px]" alt="Adetunji Adeyinka's Logo" />
         </div>
-        <button data-collapse-toggle="mobile-menu" type="button" className="inline-flex items-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu" aria-expanded="false">
+        {/* <button data-collapse-toggle="mobile-menu" type="button" className="inline-flex items-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu" aria-expanded="false">
           <img src="./icons/Hamburger.svg" alt=""  className="h-[32px] w-[58px]"/>
-        </button>
+        </button> */}
         <div className="hidden w-full md:block md:w-auto" id="mobile-menu">
           <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
             <li>
