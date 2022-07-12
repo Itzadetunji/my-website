@@ -27,7 +27,7 @@ const Home: NextPage = () => {
         </div>
       </div>
       {/* <ParticleComponent/> */}
-      <div>
+      <div className='mt-[95px]'>
         <Social_Links/>
       </div>
       <Footer/>
