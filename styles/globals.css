@@ -38,6 +38,10 @@ hr.light-blue{
   background-color: #363C42;
 }
 
+.button{
+  filter: drop-shadow(-5px -5px 0px #5CBEFF);
+}
+
 .button:hover{
   filter: drop-shadow(5px 5px 0px #5CBEFF);
 }
