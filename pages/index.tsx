@@ -27,7 +27,7 @@ const index : React.FC<HomePageProps> = ({link, text}) => {
           <hr className='light-blue border-[3px] w-[224px] mt-[35px]'/>
         </div>
         <div className='text-white mt-[73px]'>
-          <img src="./images/me.jpeg" alt="" />
+          <img src="./images/me.jpeg" alt="" className='w-[363px] h-[528px]'/>
           <div className='mt-[100px] text-[25px] text-center'>
             <p>I’m a fullstack web developer who provides quality services of industry satandard.</p>
             <p className='mt-[20px]'>I love finding new ways to solve existing problems ;)</p>
