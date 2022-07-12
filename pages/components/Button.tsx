@@ -1,7 +1,10 @@
 import { NextPage } from 'next'
 import React from 'react'
 
-type Props = {}
+type Props = {
+  link: string,
+  text: string
+}
 
 const Button: NextPage = () => {
   return (
