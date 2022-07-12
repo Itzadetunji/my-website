@@ -26,12 +26,13 @@ const about = () => {
               <p className='mt-[20px]'>I also have this excessive hunger to continue learning new things everyday 😅 </p>
             </div>
           </div>
-        </div>
-        <div className='mt-[100px]'>
-          <Button link={'#'} text={'Know More'} height={'260px'} width={'94px'} />
-        </div>
-        <div className=''>
-
+          <div className='mt-[100px]'>
+            <Button link={'#'} text={'Know More'} height={'260px'} width={'94px'} />
+          </div>
+          <div className='mt-[100px]'>
+            <p className='text-white font-[600] text-[55px]'>My Services</p>
+            <hr className='light-blue border-[3px] w-[73px] mt-[20px]'/>
+          </div>
         </div>
       </div>
       {/* <ParticleComponent/> */}
