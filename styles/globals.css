@@ -34,6 +34,14 @@ hr.light-blue{
   border-color: #5CBEFF;
 }
 
+.grey{
+  background-color: #363C42;
+}
+
+.grey-text{
+  color: #363C42
+}
+
 /* body {
   margin: 0;
   font: normal 75% Arial, Helvetica, sans-serif;

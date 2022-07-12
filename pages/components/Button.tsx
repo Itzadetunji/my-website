@@ -5,6 +5,10 @@ type Props = {}
 
 const Button: NextPage = () => {
   return (
-    <div>Button</div>
+    <div className='mx-auto text-center'>
+      <button className=''>Know More -></button>
+    </div>
   )
 }
+
+export default Button;

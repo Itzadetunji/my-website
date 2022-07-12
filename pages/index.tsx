@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Navbar from './components/Navbar'
 import ParticleComponent from './components/ParticleComponent'
 import Social_Links from './components/Social_Links'
+import Button from './components/Button'
 
 const Home: NextPage = () => {
   return (
@@ -27,6 +28,9 @@ const Home: NextPage = () => {
         </div>
       </div>
       {/* <ParticleComponent/> */}
+      <div className='mt-[100px]'>
+        <Button/>
+      </div>
       <div className='mt-[95px]'>
         <Social_Links/>
       </div>
