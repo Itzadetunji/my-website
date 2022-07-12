@@ -1,8 +1,12 @@
 import React from 'react'
 
-type Props = {}
+interface serviceCardProps {
+  icon: string,
+  title: string,
+  text: string
+}
 
-const serviceCard = (props: Props) => {
+const Button : React.FC<serviceCardProps> = ({icon, title, text}) => {
   return (
     <div>serviceCard</div>
   )
