@@ -12,11 +12,14 @@ const Home: NextPage = () => {
   return (
     <>
       <Navbar/>
-      <div className=''>
-
+      <div className="mt-[165px] mx-[35px]">
+        <div>
+          <p className='text-white font-[600] text-[55px]'>I'm</p>
+          <p className='text-white font-[600] text-[55px] leading-[60px]'>Adetunji Adeyinka</p>
+        </div>
       </div>
       <ParticleComponent/>
-      <Footer/>
+      {/* <Footer/> */}
     </>
   )
 };
