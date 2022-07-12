@@ -1,6 +1,7 @@
+import { NextPage } from 'next'
 import React from 'react'
 
-function Navbar() {
+const Navbar: NextPage = () => {
   return (
     <nav className="bg-white border-gray-200 py-2.5 rounded dark-blue fixed top-0 w-full">
       <div className="container flex flex-wrap justify-between items-center mx-[30px] mt-[30px]">

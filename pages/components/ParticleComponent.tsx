@@ -1,8 +1,9 @@
+import { NextPage } from 'next';
 import React from 'react'
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
-function ParticleComponent() {
+const ParticleComponent: NextPage= () => {
   const particlesInit = async (main) => {
     console.log(main);
 

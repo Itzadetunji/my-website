@@ -1,6 +1,7 @@
+import { NextPage } from 'next';
 import React from 'react'
 
-const Footer = () => {
+const Footer: NextPage = () => {
   const date = new Date().getFullYear();
   return (
     <div className="text-center dark-blue h-[116px] mt-8 text-[17px]">
