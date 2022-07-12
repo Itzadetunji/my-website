@@ -16,6 +16,10 @@ const Home: NextPage = () => {
         <div>
           <p className='text-white font-[600] text-[55px]'>I'm</p>
           <p className='text-white font-[600] text-[55px] leading-[60px]'>Adetunji Adeyinka</p>
+          <hr className='light-blue border-[3px] w-[224px] mt-[35px]'/>
+        </div>
+        <div>
+          <img src="" alt="" />
         </div>
       </div>
       <ParticleComponent/>

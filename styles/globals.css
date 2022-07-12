@@ -23,7 +23,11 @@ a {
 }
 
 .light-blue {
-  background-color: #7BC3D1;
+  background-color: #5CBEFF;
+}
+
+hr.light-blue{
+  border-color: #5CBEFF;
 }
 
 /* body {
