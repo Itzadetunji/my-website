@@ -10,9 +10,9 @@ interface ButtonProps {
 
 const Button : React.FC<ButtonProps> = ({link, text, width, height}) => {
   return (
-    <div className={`mx-auto rounded-full text-center items-center justify-center grey w-[260px] h-[94px] button duration-500 ease-in delay-[10ms] flex space-x-[8px]`}>
-      <p className='text-[25px] text-white'>{text}</p>
-      <img src="./icons/Arrow.svg" alt="" />
+    <div className={`mx-auto rounded-full text-center items-center justify-center grey w-[200px] h-[72.3px] button duration-500 ease-in delay-[10ms] flex space-x-[8px]`}>
+      <p className='text-[16px] text-white'>{text}</p>
+      <img src="./icons/Arrow.svg" alt="" className='w-[30px]'/>
     </div>
   )
 }
