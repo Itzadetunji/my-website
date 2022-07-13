@@ -32,8 +32,8 @@ const about: NextPage = () => {
             <Button link={'#'} text={'GET CV'} height={'200px'} width={'72.3px'} />
           </div>
           <div className='mt-[100px]'>
-            <p className='text-white font-[600] text-[55px]'>My Services</p>
-            <hr className='light-blue border-[3px] w-[73px] mt-[20px]'/>
+            <p className='text-white font-[600] text-[40px]'>My Services</p>
+            <hr className='light-blue border-[3px] w-[55px] mt-[13px]'/>
           </div>
           <Card icon={''} text={''} title={''}/>
         </div>
