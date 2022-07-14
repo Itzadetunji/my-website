@@ -1,9 +1,9 @@
 import { NextPage } from 'next'
 import React from 'react'
 import Button from './components/Button'
-import Card from './components/card'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
+import Card from './components/Card'
 import ParticleComponent from './components/ParticleComponent'
 
 const about: NextPage = () => {
@@ -35,7 +35,7 @@ const about: NextPage = () => {
             <p className='text-white font-[600] text-[40px]'>My Services</p>
             <hr className='light-blue border-[3px] w-[55px] mt-[13px]'/>
           </div>
-          <Card icon={''} text={''} title={''}/>
+          <Card icon="" text="" title=""/>
         </div>
       </div>
       {/* <ParticleComponent/> */}
