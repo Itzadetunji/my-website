@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 import ServiceCard from './components/ServiceCard'
 import WorkProcess from './components/WorkProcess'
 import ParticleComponent from './components/ParticleComponent'
+import TestimonialCard from './components/TestimonialCard'
 
 const about: NextPage = () => {
 
@@ -58,6 +59,21 @@ const about: NextPage = () => {
     },
   ]
 
+  const TestimonialCardContents = [
+    {
+        imagepath: '/images/testimonial1.png', 
+        name: 'Ludwig Dieter',
+        role: 'FullStack Developer', 
+        description: "After going through all the steps, I get into the zone 👨🏿‍💻and deliver quality and scalable applications.After going through all the steps, I get into the zone 👨🏿‍💻and deliver quality and scalable applications"
+    },
+    {
+        imagepath: '/images/testimonial1.png', 
+        name: 'Ludwig Dieter',
+        role: 'FullStack Developer', 
+        description: "After going through all the steps, I get into the zone 👨🏿‍💻and deliver quality and scalable applications.After going through all the steps, I get into the zone 👨🏿‍💻and deliver quality and scalable applications"
+    },
+  ]
+
   return (
     <>
       <Navbar/>
@@ -100,6 +116,13 @@ const about: NextPage = () => {
             <p className='text-white font-[600] text-[40px]'>What People Say About Me</p>
             <hr className='light-blue border-[3px] w-[55px] mt-[13px]'/>
             <p className='text-white font-[400] text-center leading-[34px] pt-[37px] text-[16px]'>Building a great app involves more than just design and programming. I listen to your requirements to ensure you're satisfied. Listen to others' comments.</p>
+          </div>
+          <div>
+            {TestimonialCardContents.map((testimonial, index) => <TestimonialCard imagepath={testimonial.imagepath} name={testimonial.name} role={testimonial.role} description={testimonial.description}/>)}
+          </div>
+          <div className='mt-[100px]'>
+            <p className='text-white font-[600] text-[40px]'>My Tech Stack</p>
+            <hr className='light-blue border-[3px] w-[55px] mt-[13px]'/>
           </div>
         </div>
       </div>
