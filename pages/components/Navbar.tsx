@@ -3,7 +3,7 @@ import React from 'react'
 
 const Navbar: NextPage = () => {
   return (
-    <nav className="bg-white border-gray-200 py-2.5 dark-blue fixed top-0 w-full">
+    <nav className="z-50 bg-white border-gray-200 py-2.5 dark-blue fixed top-0 w-full">
       <div className="container flex flex-wrap justify-between items-center mt-[30px]">
         <div className="mx-auto">
           <div className="flex items-center space-x-[244px]">
