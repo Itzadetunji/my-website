@@ -6,7 +6,7 @@ import styles from '../styles/Home.module.css'
 import Footer from './components/Footer';
 import Navbar from './components/Navbar'
 import ParticleComponent from './components/ParticleComponent'
-import Social_Links from './components/Social_Links'
+import Social_Links from './components/SocialLinks'
 import Button from './components/Button'
 
 const index : NextPage = () => {

@@ -4,6 +4,7 @@ import Button from './components/Button'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import ServiceCard from './components/ServiceCard'
+import WorkProcess from './components/WorkProcess'
 import ParticleComponent from './components/ParticleComponent'
 
 const about: NextPage = () => {
@@ -23,6 +24,37 @@ const about: NextPage = () => {
         iconpath: '/icons/quality.svg', 
         title: 'Quality Assured', 
         description: 'I check your website before making changes. I seek for potential user problems, big or small, and offer fixes to ensure your user is on the right path to attain their goals.'
+    },
+  ]
+
+  const WorkProcessContents = [
+    {
+        iconpath: '/icons/lightbulb.svg', 
+        width: '62.7px', 
+        height: '65.21px', 
+        title: 'Discover', 
+        description: 'I scour the web and conduct personal reserach to find out the problems facing the problem I am trying to solve.'
+    },
+    {
+        iconpath: '/icons/pencil.svg', 
+        width: '51px', 
+        height: '45.14px', 
+        title: 'Define', 
+        description: 'I think about the various solutions that could be used for the problem that has been found.'
+    },
+    {
+        iconpath: '/icons/ponder.svg', 
+        width: '53px', 
+        height: '53px', 
+        title: 'Ponder', 
+        description: "I test answers in a real-world situation to determine whether they fit exactly, and if they don't, I reconsider my strategy."
+    },
+    {
+        iconpath: '/icons/implement.png', 
+        width: '66px', 
+        height: '66px', 
+        title: 'Implement', 
+        description: "After going through all the steps, I get into the zone 👨🏿‍💻and deliver quality and scalable applications."
     },
   ]
 
@@ -57,8 +89,12 @@ const about: NextPage = () => {
           <div>
             {ServiceCardContents.map((service, index) => <ServiceCard iconpath={service.iconpath} title={service.title} description={service.description} key={index}/>)}
           </div>
+          <div className='mt-[100px]'>
+            <p className='text-white font-[600] text-[40px]'>My Work Process</p>
+            <hr className='light-blue border-[3px] w-[55px] mt-[13px]'/>
+          </div>
           <div>
-            
+            {WorkProcessContents.map((process, index) => <WorkProcess iconpath={process.iconpath} title={process.title} description={process.description} width={process.width} height={process.height} key={index}/>)}
           </div>
         </div>
       </div>
