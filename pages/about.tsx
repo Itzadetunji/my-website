@@ -12,17 +12,17 @@ const about: NextPage = () => {
 
   const ServiceCardContents = [
     {
-        iconpath: '/icons/bullseye.svg', 
+        iconpath: '/icons/service-icons/bullseye.svg', 
         title: 'Goal Oriented', 
         description: 'I check your website before making changes. I seek for potential user problems, big or small, and offer fixes to ensure your user is on the right path to attain their goals.'
     },
     {
-        iconpath: '/icons/scalable.svg', 
+        iconpath: '/icons/service-icons/scalable.svg', 
         title: 'Scalability', 
         description: 'I develop scalable websites with your goals in mind. I make websites easy to update and maintenance so your team has full control.'
     },
     {
-        iconpath: '/icons/quality.svg', 
+        iconpath: '/icons/service-icons/quality.svg', 
         title: 'Quality Assured', 
         description: 'I check your website before making changes. I seek for potential user problems, big or small, and offer fixes to ensure your user is on the right path to attain their goals.'
     },
@@ -30,28 +30,28 @@ const about: NextPage = () => {
 
   const WorkProcessContents = [
     {
-        iconpath: '/icons/lightbulb.svg', 
+        iconpath: '/icons/work-process-icons/lightbulb.svg', 
         width: '62.7px', 
         height: '65.21px', 
         title: 'Discover', 
         description: 'I scour the web and conduct personal reserach to find out the problems facing the problem I am trying to solve.'
     },
     {
-        iconpath: '/icons/pencil.svg', 
+        iconpath: '/icons/work-process-icons/pencil.svg', 
         width: '51px', 
         height: '45.14px', 
         title: 'Define', 
         description: 'I think about the various solutions that could be used for the problem that has been found.'
     },
     {
-        iconpath: '/icons/ponder.svg', 
+        iconpath: '/icons/work-process-icons/ponder.svg', 
         width: '53px', 
         height: '53px', 
         title: 'Ponder', 
         description: "I test answers in a real-world situation to determine whether they fit exactly, and if they don't, I reconsider my strategy."
     },
     {
-        iconpath: '/icons/implement.png', 
+        iconpath: '/icons/work-process-icons/implement.png', 
         width: '66px', 
         height: '66px', 
         title: 'Implement', 
