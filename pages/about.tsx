@@ -26,6 +26,29 @@ const about: NextPage = () => {
     },
   ]
 
+  const WorkProcessContents = [
+    {
+        iconpath: '/icons/lightbulb.svg', 
+        title: 'Discover', 
+        description: 'I scour the web and conduct personal reserach to find out the problems facing the problem I am trying to solve.'
+    },
+    {
+        iconpath: '/icons/pencil.svg', 
+        title: 'Define', 
+        description: 'I consider possible approaches to the problem that has been discovered.'
+    },
+    {
+        iconpath: '/icons/ponder.svg', 
+        title: 'Ponder', 
+        description: "I test answers in a real-world situation to determine whether they fit exactly, and if they don't, I reconsider my strategy."
+    },
+    {
+        iconpath: '/icons/implement.png', 
+        title: 'Implement', 
+        description: "After going through all the steps, I get into the zone 👨🏿‍💻and deliver quality and scalable applications."
+    },
+  ]
+
   return (
     <>
       <Navbar/>
@@ -58,7 +81,7 @@ const about: NextPage = () => {
             {ServiceCardContents.map((service, index) => <ServiceCard iconpath={service.iconpath} title={service.title} description={service.description} key={index}/>)}
           </div>
           <div>
-            
+            {WorkProcessContents.map((process, index) => <ServiceCard iconpath={process.iconpath} title={process.title} description={process.description} key={index}/>)}
           </div>
         </div>
       </div>
