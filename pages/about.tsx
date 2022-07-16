@@ -96,6 +96,11 @@ const about: NextPage = () => {
           <div>
             {WorkProcessContents.map((process, index) => <WorkProcess iconpath={process.iconpath} title={process.title} description={process.description} width={process.width} height={process.height} key={index}/>)}
           </div>
+          <div className='mt-[100px]'>
+            <p className='text-white font-[600] text-[40px]'>What People Say About Me</p>
+            <hr className='light-blue border-[3px] w-[55px] mt-[13px]'/>
+            <p className='text-white font-[400] text-center leading-[34px] pt-[37px] text-[16px]'>Building a great app involves more than just design and programming. I listen to your requirements to ensure you're satisfied. Listen to others' comments.</p>
+          </div>
         </div>
       </div>
       {/* <ParticleComponent/> */}
