@@ -4,6 +4,7 @@ import Button from './components/Button'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import ServiceCard from './components/ServiceCard'
+import WorkProcess from './components/WorkProcess'
 import ParticleComponent from './components/ParticleComponent'
 
 const about: NextPage = () => {
@@ -81,7 +82,7 @@ const about: NextPage = () => {
             {ServiceCardContents.map((service, index) => <ServiceCard iconpath={service.iconpath} title={service.title} description={service.description} key={index}/>)}
           </div>
           <div>
-            {WorkProcessContents.map((process, index) => <ServiceCard iconpath={process.iconpath} title={process.title} description={process.description} key={index}/>)}
+            {WorkProcessContents.map((process, index) => <WorkProcess iconpath={process.iconpath} title={process.title} description={process.description} key={index}/>)}
           </div>
         </div>
       </div>
