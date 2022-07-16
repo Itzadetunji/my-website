@@ -7,6 +7,25 @@ import ServiceCard from './components/ServiceCard'
 import ParticleComponent from './components/ParticleComponent'
 
 const about: NextPage = () => {
+
+  const ServiceCardContents = [
+    {
+        iconpath: '/icons/bullseye.svg', 
+        title: 'Goal Oriented', 
+        description: 'I check your website before making changes. I seek for potential user problems, big or small, and offer fixes to ensure your user is on the right path to attain their goals.'
+    },
+    {
+        iconpath: '/icons/scalable.svg', 
+        title: 'Scalability', 
+        description: 'I develop scalable websites with your goals in mind. I make websites easy to update and maintenance so your team has full control.'
+    },
+    {
+        iconpath: '/icons/quality.svg', 
+        title: 'Quality Assured', 
+        description: 'I check your website before making changes. I seek for potential user problems, big or small, and offer fixes to ensure your user is on the right path to attain their goals.'
+    },
+  ]
+
   return (
     <>
       <Navbar/>
@@ -35,7 +54,12 @@ const about: NextPage = () => {
             <p className='text-white font-[600] text-[40px]'>My Services</p>
             <hr className='light-blue border-[3px] w-[55px] mt-[13px]'/>
           </div>
-          <ServiceCard icon="" text="" title=""/>
+          <div>
+            {ServiceCardContents.map((service, index) => <ServiceCard iconpath={service.iconpath} title={service.title} description={service.description} key={index}/>)}
+          </div>
+          <div>
+            
+          </div>
         </div>
       </div>
       {/* <ParticleComponent/> */}
