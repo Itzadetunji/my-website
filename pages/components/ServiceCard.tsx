@@ -7,8 +7,6 @@ interface cardProps {
   description: string
 }
 
-const servicecontent = 1;
-
 const ServiceCard: React.FC<cardProps> = ({iconpath, title, description}) => {
   return (
     <div className='grey w-[334px] rounded-[30px] mx-auto drop-shadow duration-500 ease-in delay-[10ms]'>
