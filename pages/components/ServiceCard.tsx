@@ -7,7 +7,7 @@ interface cardProps {
   title: string
 }
 
-const Card: React.FC<cardProps> = ({icon, text, title}) => {
+const ServiceCard: React.FC<cardProps> = ({icon, text, title}) => {
   return (
     <div className='grey w-[334px] rounded-[30px] mx-auto drop-shadow duration-500 ease-in delay-[10ms]'>
       <div className='flex flex-col mt-[79px]'>
@@ -19,4 +19,4 @@ const Card: React.FC<cardProps> = ({icon, text, title}) => {
   )
 }
 
-export default Card
+export default ServiceCard
