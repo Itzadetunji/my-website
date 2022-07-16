@@ -38,11 +38,11 @@ hr.light-blue{
   background-color: #363C42;
 }
 
-.button{
+.drop-shadow{
   filter: drop-shadow(-5px -5px 0px #5CBEFF);
 }
 
-.button:hover{
+.drop-shadow:hover{
   filter: drop-shadow(5px 5px 0px #5CBEFF);
 }
 
