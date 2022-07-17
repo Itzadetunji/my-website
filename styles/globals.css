@@ -50,6 +50,18 @@ hr.light-blue{
   color: #363C42;
 }
 
+@keyframes techStackCarouselAnimation {
+  0% {
+    left: 0
+  }
+  100% {
+    left: -848px;
+  }
+}
+.techStackCarousel {
+  animation: techStackCarouselAnimation 20s linear infinite;
+}
+
 /* body {
   margin: 0;
   font: normal 75% Arial, Helvetica, sans-serif;

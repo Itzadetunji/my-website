@@ -7,6 +7,7 @@ import ServiceCard from './components/ServiceCard'
 import WorkProcess from './components/WorkProcess'
 import ParticleComponent from './components/ParticleComponent'
 import TestimonialCard from './components/TestimonialCard'
+import TechStack from './components/TechStack'
 
 const about: NextPage = () => {
 
@@ -123,6 +124,9 @@ const about: NextPage = () => {
           <div className='mt-[100px]'>
             <p className='text-white font-[600] text-[40px]'>My Tech Stack</p>
             <hr className='light-blue border-[3px] w-[55px] mt-[13px]'/>
+            <div className='mt-[36px]'>
+              <TechStack/>
+            </div>
           </div>
         </div>
       </div>
