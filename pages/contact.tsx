@@ -23,10 +23,10 @@ const contact : NextPage = () => {
           <div className='text-white mt-[80px]'>
             <form action="">
               <div className='mt-[45px] text-[25px] flex flex-col space-y-[33px]'>
-                <input type="text" name='name' placeholder='What’s your name ?' className='grey placeholder:-pl-[15px] placeholder:text-[16px] placeholder:text-white pl-[20px] h-[70px] rounded-[30px] '/>
-                <input type="text" name='name' placeholder='Why are you sending this?' className='grey placeholder:-pl-[15px] placeholder:text-[16px] placeholder:text-white pl-[20px] h-[70px] rounded-[30px] '/>
-                <input type="text" name='name' placeholder='What’s your email ?' className='grey placeholder:-pl-[15px] placeholder:text-[16px] placeholder:text-white pl-[20px] h-[70px] rounded-[30px] '/>
-                <textarea name="message" id="" cols="30" rows="10" className='grey rounded-[30px] h-[214px] resize-none'></textarea>
+                <input type="text" name='name' placeholder='What’s your name ?' className='grey placeholder:-pl-[15px] placeholder:text-[16px] placeholder:text-white text-[16px] pl-[20px] h-[70px] rounded-[30px] '/>
+                <input type="text" name='name' placeholder='Why are you sending this?' className='grey placeholder:-pl-[15px] placeholder:text-[16px] placeholder:text-white text-[16px] pl-[20px] h-[70px] rounded-[30px] '/>
+                <input type="text" name='name' placeholder='What’s your email ?' className='grey placeholder:-pl-[15px] placeholder:text-[16px] placeholder:text-white text-[16px] pl-[20px] h-[70px] rounded-[30px] '/>
+                <textarea name="message" id="" className='grey rounded-[30px] h-[214px] resize-none pl-[20px] placeholder:text-white placeholder:text-[16px] pt-[14px] text-[16px]' placeholder='What do you want to talk about?'></textarea>
               </div>
             </form>
           </div>
