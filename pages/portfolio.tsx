@@ -28,7 +28,7 @@ const index : NextPage = () => {
         </div>
       </div>
       {/* <ParticleComponent/> */}
-      <div className='mt-[100px] grey'>
+      <div className='mt-[100px] grey mx-[30px] rounded-[30px]'>
         <PortfolioCard/>
       </div>
       <div className='mt-[95px]'>
