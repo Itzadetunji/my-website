@@ -8,6 +8,7 @@ import Navbar from './components/Navbar'
 import ParticleComponent from './components/ParticleComponent'
 import Social_Links from './components/SocialLinks'
 import Button from './components/Button'
+import PortfolioCard from './components/PortfolioCard'
 
 const index : NextPage = () => {
   return (
@@ -20,17 +21,15 @@ const index : NextPage = () => {
             <hr className='light-blue border-[3px] w-[55px] mt-[16px]'/>
           </div>
           <div className='text-white mt-[73px]'>
-            <img src="./images/me.jpeg" alt="" className='w-[363px] h-[528px]'/>
-            <div className='mt-[100px] text-[25px] text-center'>
-              <p>I’m a fullstack web developer who provides quality services of industry satandard.</p>
-              <p className='mt-[20px]'>I love finding new ways to solve existing problems ;)</p>
+            <div className='mt-[45px] text-[25px] text-center'>
+              <p>Here is a sneak peek 👀 of what I have done 🙈</p>
             </div>
           </div>
         </div>
       </div>
       {/* <ParticleComponent/> */}
-      <div className='mt-[100px]'>
-        <Button link={'#'} text={'Know More'} height={'260px'} width={'94px'}/>
+      <div className='mt-[100px] grey'>
+        <PortfolioCard/>
       </div>
       <div className='mt-[95px]'>
         <Social_Links/>
