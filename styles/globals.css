@@ -50,16 +50,29 @@ hr.light-blue{
   color: #363C42;
 }
 
-@keyframes techStackCarouselAnimation {
+@keyframes techStackCarouselAnimation1 {
   0% {
     left: 0
   }
   100% {
-    left: -848px;
+    left: -810px;
   }
 }
-.techStackCarousel {
-  animation: techStackCarouselAnimation 20s linear infinite;
+
+@keyframes techStackCarouselAnimation2 {
+  0% {
+    right: 810px;
+  }
+  100% {
+    right: 0;
+  }
+}
+.techStackCarousel1 {
+  animation: techStackCarouselAnimation1 25s linear infinite;
+}
+
+.techStackCarousel2 {
+  animation: techStackCarouselAnimation2 20s linear infinite;
 }
 
 /* body {

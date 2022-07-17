@@ -77,7 +77,7 @@ const about: NextPage = () => {
 
   return (
     <>
-      <Navbar/>
+      {/* <Navbar/> */}
       <div className="mt-[165px] mx-auto justify-center">
         <div className='mx-[35px]'>
           <div>
@@ -124,7 +124,7 @@ const about: NextPage = () => {
           <div className='mt-[100px]'>
             <p className='text-white font-[600] text-[40px]'>My Tech Stack</p>
             <hr className='light-blue border-[3px] w-[55px] mt-[13px]'/>
-            <div className='mt-[36px]'>
+            <div className='mt-[36px] -mx-[30px]'>
               <TechStack/>
             </div>
           </div>
