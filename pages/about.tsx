@@ -7,6 +7,8 @@ import ServiceCard from './components/ServiceCard'
 import WorkProcess from './components/WorkProcess'
 import ParticleComponent from './components/ParticleComponent'
 import TestimonialCard from './components/TestimonialCard'
+import TechStack from './components/TechStack'
+import Social_Links from './components/SocialLinks'
 
 const about: NextPage = () => {
 
@@ -95,7 +97,7 @@ const about: NextPage = () => {
               <p className='mt-[20px]'>I also have this excessive hunger to continue learning new things everyday 😅 </p>
             </div>
           </div>
-          <div className='mt-[100px]'>
+          <div className='mt-[50px]'>
             <Button link={'#'} text={'GET CV'} height={'200px'} width={'72.3px'} />
           </div>
           <div className='mt-[100px]'>
@@ -123,6 +125,12 @@ const about: NextPage = () => {
           <div className='mt-[100px]'>
             <p className='text-white font-[600] text-[40px]'>My Tech Stack</p>
             <hr className='light-blue border-[3px] w-[55px] mt-[13px]'/>
+            <div className='mt-[36px] -mx-[30px]'>
+              <TechStack/>
+            </div>
+          </div>
+          <div className='mt-[100px]'>
+            <Social_Links/>
           </div>
         </div>
       </div>

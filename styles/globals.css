@@ -38,9 +38,9 @@ hr.light-blue{
   background-color: #363C42;
 }
 
-.drop-shadow{
+/* .drop-shadow{
   filter: drop-shadow(-5px -5px 0px #5CBEFF);
-}
+} */
 
 .drop-shadow:hover{
   filter: drop-shadow(5px 5px 0px #5CBEFF);
@@ -48,6 +48,31 @@ hr.light-blue{
 
 .grey-text{
   color: #363C42;
+}
+
+@keyframes techStackCarouselAnimation1 {
+  0% {
+    left: 0
+  }
+  100% {
+    left: -810px;
+  }
+}
+
+@keyframes techStackCarouselAnimation2 {
+  0% {
+    right: 810px;
+  }
+  100% {
+    right: 0;
+  }
+}
+.techStackCarousel1 {
+  animation: techStackCarouselAnimation1 45s linear infinite;
+}
+
+.techStackCarousel2 {
+  animation: techStackCarouselAnimation2 45s linear infinite;
 }
 
 /* body {
