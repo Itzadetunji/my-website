@@ -28,7 +28,7 @@ const contact : NextPage = () => {
                 <input type="text" name='name' placeholder='What’s your email ?' className='grey placeholder:-pl-[15px] placeholder:text-[16px] placeholder:text-white text-[16px] px-[20px] h-[70px] rounded-[30px] '/>
                 <textarea name="message" id="" className='grey rounded-[30px] h-[214px] resize-none px-[20px] placeholder:text-white placeholder:text-[16px] pt-[14px] text-[16px]' placeholder='What do you want to talk about?'></textarea>
               </div>
-              <input type="submit" name="send" className='mt-[40px] custom-shadow mx-[100px] rounded-full text-center items-center justify-center grey w-[150px] h-[60.3px]' />
+              <input type="submit" name="send" className='mt-[40px] custom-shadow mx-[100px] rounded-full text-center items-center justify-center grey w-[150px] h-[60.3px] duration-500 ease-in delay-[10ms]' />
             </form>
           </div>
         </div>
