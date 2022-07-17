@@ -68,11 +68,11 @@ hr.light-blue{
   }
 }
 .techStackCarousel1 {
-  animation: techStackCarouselAnimation1 25s linear infinite;
+  animation: techStackCarouselAnimation1 45s linear infinite;
 }
 
 .techStackCarousel2 {
-  animation: techStackCarouselAnimation2 20s linear infinite;
+  animation: techStackCarouselAnimation2 45s linear infinite;
 }
 
 /* body {
