@@ -1,12 +1,7 @@
 import { NextPage } from 'next'
 import React from 'react'
 
-interface cardProps {
-  path: string,
-  name: string
-}
-
-const TechStack: React.FC<cardProps> = () => {
+const TechStack: NextPage = () => {
   const TechStackContents1 =[
     {
       path: "../icons/stack-icons/HTML5.svg",
