@@ -42,7 +42,7 @@ hr.light-blue{
   filter: drop-shadow(-5px -5px 0px #5CBEFF);
 } */
 
-.drop-shadow:hover{
+.custom-shadow:hover{
   filter: drop-shadow(5px 5px 0px #5CBEFF);
 }
 
