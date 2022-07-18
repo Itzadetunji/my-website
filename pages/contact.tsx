@@ -56,14 +56,32 @@ const contact : NextPage = () => {
             <hr className='light-blue border-[3px] w-[85px] mt-[16px]'/>
           </div>
           <div className='text-white mt-[80px] mx-auto'>
-            <form action="">
+            <form onSubmit={handleContactFormSubmit}>
               <div className='mt-[45px] flex flex-col space-y-[33px]'>
-                <input type="text" name='name' placeholder='What’s your name ?' className='grey placeholder:-pl-[15px] placeholder:text-[16px] placeholder:text-white text-[16px] px-[20px] h-[70px] rounded-[30px] outline-none'/>
-                <input type="text" name='name' placeholder='Why are you sending this?' className='grey placeholder:-pl-[15px] placeholder:text-[16px] placeholder:text-white text-[16px] px-[20px] h-[70px] rounded-[30px] outline-none'/>
-                <input type="text" name='name' placeholder='What’s your email ?' className='grey placeholder:-pl-[15px] placeholder:text-[16px] placeholder:text-white text-[16px] px-[20px] h-[70px] rounded-[30px] outline-none'/>
-                <textarea name="message" id="" className='grey rounded-[30px] h-[214px] resize-none px-[20px] placeholder:text-white placeholder:text-[16px] pt-[24px] text-[16px] outline-none' placeholder='What do you want to talk about?'></textarea>
+                <input type="text" name='name' placeholder='What’s your name ?' className='grey placeholder:-pl-[15px] placeholder:text-[16px] placeholder:text-white text-[16px] px-[20px] h-[70px] rounded-[30px] outline-none' value={contactFormData.name} onChange={(e) => setContactFormData({...contactFormData, name: e.target.value,})}/>
+                <input type="text" name='name' placeholder='Why are you sending this?' className='grey placeholder:-pl-[15px] placeholder:text-[16px] placeholder:text-white text-[16px] px-[20px] h-[70px] rounded-[30px] outline-none' value={contactFormData.email}
+									onChange={(e) =>
+										setContactFormData({
+											...contactFormData,
+											email: e.target.value,
+										})
+									}/>
+                <input type="text" name='name' placeholder='What’s your email ?' className='grey placeholder:-pl-[15px] placeholder:text-[16px] placeholder:text-white text-[16px] px-[20px] h-[70px] rounded-[30px] outline-none' value={contactFormData.subject}
+								onChange={(e) =>
+									setContactFormData({
+										...contactFormData,
+										subject: e.target.value,
+									})
+								}/>
+                <textarea name="message" id="" className='grey rounded-[30px] h-[214px] resize-none px-[20px] placeholder:text-white placeholder:text-[16px] pt-[24px] text-[16px] outline-none' placeholder='What do you want to talk about?' value={contactFormData.message}
+								onChange={(e) =>
+									setContactFormData({
+										...contactFormData,
+										message: e.target.value,
+									})
+								}></textarea>
               </div>
-              <input type="submit" name="send" className='mt-[40px] custom-shadow mx-[100px] rounded-full text-center items-center justify-center grey w-[170px] h-[60.3px] duration-500 ease-in delay-[10ms]' value='Send Message'/>
+              <input type="submit" id="submit" className='mt-[40px] custom-shadow mx-[100px] rounded-full text-center items-center justify-center grey w-[170px] h-[60.3px] duration-500 ease-in delay-[10ms]' value='Send Message'/>
             </form>
           </div>
         </div>
