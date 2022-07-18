@@ -78,9 +78,7 @@ const about: NextPage = () => {
 
   return (
     <>
-    <ParticleComponent/>
-    <div className='absolute z-50'>
-    <Navbar/>
+      <Navbar/>
       <div className="mt-[165px] mx-auto justify-center">
         <div className='mx-[35px]'>
           <div>
@@ -136,8 +134,8 @@ const about: NextPage = () => {
           </div>
         </div>
       </div>
+        {/* <ParticleComponent/> */}
       <Footer/>
-    </div>
     </>
   )
 }
