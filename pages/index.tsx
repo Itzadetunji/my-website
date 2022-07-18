@@ -31,7 +31,7 @@ const index : NextPage = () => {
       </div>
       {/* <ParticleComponent/> */}
       <div className='mt-[100px]'>
-        <Button link={'#'} text={'Know More'} height={'260px'} width={'94px'}/>
+        <Button link={'/about'} text={'Know More'} height={'260px'} width={'94px'}/>
       </div>
       <div className='mt-[95px]'>
         <Social_Links/>
