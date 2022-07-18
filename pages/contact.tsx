@@ -25,7 +25,6 @@ const contact : NextPage = () => {
 
 	const handleContactFormSubmit = async (e) => {
 		e.preventDefault();
-
 		try {
 			const response = await fetch("/api/contact", {
 				method: "POST",
@@ -59,18 +58,18 @@ const contact : NextPage = () => {
             <form onSubmit={handleContactFormSubmit}>
               <div className='mt-[45px] flex flex-col space-y-[33px]'>
                 <input type="text" name='name' placeholder='What’s your name ?' className='grey placeholder:-pl-[15px] placeholder:text-[16px] placeholder:text-white text-[16px] px-[20px] h-[70px] rounded-[30px] outline-none' value={contactFormData.name} onChange={(e) => setContactFormData({...contactFormData, name: e.target.value,})}/>
-                <input type="text" name='name' placeholder='Why are you sending this?' className='grey placeholder:-pl-[15px] placeholder:text-[16px] placeholder:text-white text-[16px] px-[20px] h-[70px] rounded-[30px] outline-none' value={contactFormData.email}
+                <input type="text" name='name' placeholder='Why are you sending this?' className='grey placeholder:-pl-[15px] placeholder:text-[16px] placeholder:text-white text-[16px] px-[20px] h-[70px] rounded-[30px] outline-none' value={contactFormData.subject}
 									onChange={(e) =>
 										setContactFormData({
 											...contactFormData,
-											email: e.target.value,
+											subject: e.target.value,
 										})
 									}/>
-                <input type="text" name='name' placeholder='What’s your email ?' className='grey placeholder:-pl-[15px] placeholder:text-[16px] placeholder:text-white text-[16px] px-[20px] h-[70px] rounded-[30px] outline-none' value={contactFormData.subject}
+                <input type="text" name='name' placeholder='What’s your email ?' className='grey placeholder:-pl-[15px] placeholder:text-[16px] placeholder:text-white text-[16px] px-[20px] h-[70px] rounded-[30px] outline-none' value={contactFormData.email}
 								onChange={(e) =>
 									setContactFormData({
 										...contactFormData,
-										subject: e.target.value,
+										email: e.target.value,
 									})
 								}/>
                 <textarea name="message" id="" className='grey rounded-[30px] h-[214px] resize-none px-[20px] placeholder:text-white placeholder:text-[16px] pt-[24px] text-[16px] outline-none' placeholder='What do you want to talk about?' value={contactFormData.message}
