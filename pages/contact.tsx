@@ -11,6 +11,41 @@ import Button from './components/Button'
 import PortfolioCard from './components/PortfolioCard'
 
 const contact : NextPage = () => {
+  const [contactFormData, setContactFormData] = useState({
+		name: "",
+		email: "",
+		subject: "",
+		message: "",
+	});
+	const [formState, setFormState] = useState({
+		submitted: false,
+		success: false,
+		message: null,
+	});
+
+	const handleContactFormSubmit = async (e) => {
+		e.preventDefault();
+
+		try {
+			const response = await fetch("/api/contact", {
+				method: "POST",
+				headers: {
+					Accept: "application/json, text/plain, */*",
+					"Content-Type": "application/json",
+				},
+				body: JSON.stringify(contactFormData),
+			});
+
+			if (response.status === 200) {
+				setFormState({ submitted: true, success: true });
+				setContactFormData({ name: "", email: "", subject: "", message: "" });
+				window.alert("Message sent successfully");
+			}
+		} catch (error) {
+			window.alert("Error Sending Message");
+			setFormState({ submitted: true, success: false, message: error.message });
+		}
+	};
   return (
     <>
       <Navbar/>
