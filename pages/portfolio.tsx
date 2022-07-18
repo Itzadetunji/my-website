@@ -10,7 +10,7 @@ import Social_Links from './components/SocialLinks'
 import Button from './components/Button'
 import PortfolioCard from './components/PortfolioCard'
 
-const index : NextPage = () => {
+const portfolio : NextPage = () => {
   return (
     <>
       <Navbar/>
@@ -38,4 +38,4 @@ const index : NextPage = () => {
     </>
   )
 };
-export default index
+export default portfolio
