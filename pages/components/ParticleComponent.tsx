@@ -22,7 +22,7 @@ const ParticleComponent: NextPage= () => {
       init={particlesInit}
       loaded={particlesLoaded}
       options={{
-        fullScreen: {enable: true, zIndex: 0},
+        fullScreen: { enable: true ,zIndex: 0},
         fpsLimit: 120,
         interactivity: {
           events: {
@@ -90,7 +90,7 @@ const ParticleComponent: NextPage= () => {
               enable: true,
               area: 800,
             },
-            value: 500,
+            value: 250,
           },
           opacity: {
             value: 0.1,
