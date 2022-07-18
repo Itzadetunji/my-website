@@ -9,17 +9,17 @@ const Social_Links: NextPage = () => {
       <div className="mx-auto flex space-x-[40px]">
         <Link href="https://www.facebook.com/adetunji.adeyinka.1238" passHref>
           <a target="_blank" rel="noopener noreferrer">
-            <img src="/icons/facebook.svg" alt=""/>
+            <img src="icons/social-icons/facebook.svg" alt=""/>
           </a>
         </Link>
         <Link href="https://www.instagram.com/itzadetunji/" passHref>
           <a target="_blank" rel="noopener noreferrer">
-            <img src="/icons/instagram.svg" alt=""/>
+            <img src="icons/social-icons/instagram.svg" alt=""/>
           </a>
         </Link>
         <Link href="https://twitter.com/itzadetunji1" passHref>
           <a target="_blank" rel="noopener noreferrer">
-            <img src="/icons/twitter.svg" alt=""/>
+            <img src="icons/social-icons/twitter.svg" alt=""/>
           </a>
         </Link>
       </div>
