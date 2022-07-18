@@ -39,10 +39,10 @@ const contact : NextPage = () => {
 			if (response.status === 200) {
 				setFormState({ submitted: true, success: true });
 				setContactFormData({ name: "", email: "", subject: "", message: "" });
-				window.alert("Message sent successfully");
+				window.alert("Message sent!");
 			}
 		} catch (error) {
-			window.alert("Error Sending Message");
+			window.alert("Error Sending Message 😢. Try again 🤕.");
 			setFormState({ submitted: true, success: false, message: error.message });
 		}
 	};
