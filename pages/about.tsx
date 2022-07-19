@@ -135,9 +135,12 @@ const about: NextPage = () => {
             <p className='text-white font-[600] text-[40px]'>What People Say About Me</p>
             <hr className='light-blue border-[3px] w-[55px] mt-[13px]'/>
           </div>
-          <div className='lg:flex lg:flex-row lg:space-x-[100px]'>
+          <div className='lg:flex lg:flex-row lg:space-x-[150px] xl:space-x-[150px]'>
             <p className='text-white font-[400] text-center lg:text-left leading-[34px] lg:leading-[40px] pt-[37px] text-[20px] lg:mt-[100px] lg:w-[350px]'>Building a great app involves more than just design and programming. I listen to your requirements to ensure you're satisfied. Listen to others' comments.</p>
-            <div className='lg:grid lg:grid-cols-1 xl:grid-cols-2'>
+            <div className='lg:grid lg:grid-cols-1 xl:hidden'>
+              {TestimonialCardContents.splice(0,2).map((testimonial, index) => <TestimonialCard imagepath={testimonial.imagepath} name={testimonial.name} role={testimonial.role} description={testimonial.description}/>)}
+            </div>
+            <div className='hidden xl:grid xl:grid-cols-1'>
               {TestimonialCardContents.map((testimonial, index) => <TestimonialCard imagepath={testimonial.imagepath} name={testimonial.name} role={testimonial.role} description={testimonial.description}/>)}
             </div>
           </div>
