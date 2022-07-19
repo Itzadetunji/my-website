@@ -78,7 +78,7 @@ const about: NextPage = () => {
 
   return (
     <>
-      <Navbar/>
+      {/* <Navbar/> */}
       <div className="mt-[165px] mx-auto justify-center">
         <div className='mx-[35px]'>
           <div>
