@@ -109,8 +109,8 @@ const about: NextPage = () => {
             <p className='text-white font-[600] text-[40px]'>My Services</p>
             <hr className='light-blue border-[3px] w-[55px] mt-[13px]'/>
           </div>
-          <div>
-            {ServiceCardContents.map((service, index) => <ServiceCard iconpath={service.iconpath} title={service.title} description={service.description} key={index}/>)}
+            <div className='flex flex-col lg:flex-row space-y-[79px] lg:space-y-[0] lg:space-x-[50px] mt-[79px]'>
+              {ServiceCardContents.map((service, index) => <ServiceCard iconpath={service.iconpath} title={service.title} description={service.description} key={index}/>)}
           </div>
           <div className='mt-[100px]'>
             <p className='text-white font-[600] text-[40px]'>My Work Process</p>
