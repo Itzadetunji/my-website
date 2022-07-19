@@ -140,7 +140,7 @@ const about: NextPage = () => {
             <div className='lg:grid lg:grid-cols-1 xl:hidden'>
               {TestimonialCardContents.splice(0,2).map((testimonial, index) => <TestimonialCard imagepath={testimonial.imagepath} name={testimonial.name} role={testimonial.role} description={testimonial.description}/>)}
             </div>
-            <div className='hidden xl:grid xl:grid-cols-1'>
+            <div className='xl:grid xl:grid-cols-2 xl:gap-x-[68px] xl:gap-y-[37px]'>
               {TestimonialCardContents.map((testimonial, index) => <TestimonialCard imagepath={testimonial.imagepath} name={testimonial.name} role={testimonial.role} description={testimonial.description}/>)}
             </div>
           </div>
