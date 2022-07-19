@@ -81,7 +81,7 @@ const about: NextPage = () => {
     <>
       {/* <Navbar/> */}
       <div className="mt-[165px] mx-auto justify-center">
-        <div className='mx-[35px]'>
+        <div className='mx-[35px] lg:mx-[60px]'>
           <div className='text-white mt-[73px] xl:-mt-[20px] lg:flex lg:flex-row md:items-end lg:space-x-[100px] xl:space-x-[170px] 2xl:space-x-[280px]'>
               <img src="./images/me.jpeg" alt="" className='w-[363px] xl:w-[400px] h-[528px] xl:h-[582px] mx-auto lg:mx-[0px]'/>
               <div className='mt-[100px] lg:mt-[0px] text-center lg:text-left'>

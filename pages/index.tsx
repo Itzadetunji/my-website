@@ -14,7 +14,7 @@ const index : NextPage = () => {
   return (
     <>
       {/* <Navbar/> */}
-      <div className='lg:mx-[50px] xl:ml-[70px] z-50'>
+      <div className='lg:mx-[50px] lg:mx-[60px] z-50'>
         <div className="mt-[165px] mx-auto justify-center">
           <div className='mx-[35px] lg:mx-0'>
             <div className='lg:hidden'>
