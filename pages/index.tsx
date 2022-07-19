@@ -14,7 +14,7 @@ const index : NextPage = () => {
   return (
     <>
       {/* <Navbar/> */}
-      <div className='lg:mx-[50px]'>
+      <div className='lg:mx-[50px] xl:ml-[70px] z-50'>
         <div className="mt-[165px] mx-auto justify-center">
           <div className='mx-[35px] lg:mx-0'>
             <div className='lg:hidden'>
@@ -22,48 +22,58 @@ const index : NextPage = () => {
               <p className='text-white font-[600] text-[55px] leading-[60px]'>Adetunji Adeyinka</p>
               <hr className='light-blue border-[3px] w-[224px] sm:w-[204px] mt-[35px]'/>
             </div>
-            <div className='text-white mt-[73px] lg:flex lg:flex-row lg:space-x-[100px]'>
-              <img src="./images/me.jpeg" alt="" className='w-[363px] h-[528px] mx-auto lg:mx-[0px]'/>
-              <div className='mt-[100px] lg:mt-[0] text-[25px] lg:text-[16px] text-center lg:text-left'>
+            <div className='text-white mt-[73px] xl:-mt-[20px]  lg:flex lg:flex-row lg:space-x-[100px] xl:space-x-[170px]'>
+              <img src="./images/me.jpeg" alt="" className='w-[363px] xl:w-[400px] h-[528px] xl:h-[582px] mx-auto lg:mx-[0px]'/>
+              <div className='mt-[100px] lg:mt-[0] text-center lg:text-left'>
                 <p className='text-white font-[600] text-[55px] lg:text-[40px] hidden lg:block'>I'm</p>
                 <p className='text-white font-[600] text-[55px] lg:text-[40px] leading-[60px] hidden lg:block'>Adetunji Adeyinka</p>
                 <hr className='light-blue border-[3px] w-[224px] sm:w-[204px] lg:w-[150px] mt-[35px] lg:mt-[20px] hidden lg:block'/>
-                <div className='w-[300px]'>
-                  <p className='mt-[20px]'>
+                <div className='w-[300px] xl:w-[360px] font-light text-[25px] lg:text-[16px] xl:text-[20px] xl:leading-[30px] '>
+                  <p className='mt-[20px] lg:mt-[40px]'>
                   I am a fullstack web developer based in Lagos State, Nigeria. I started my coding journey in 2017 and now I have over 4+ years of experience. 
                   </p>
-                  <p className='mt-[20px]'>I love finding new ways to solve existing problems ;)</p>
-                  <p className='mt-[20px]'>I also have this excessive hunger to continue learning new things everyday 😅 </p>
+                  <p className='mt-[20px] xl:mt-[0px]'>I love finding new ways to solve existing problems ;)</p>
+                  <p className='mt-[20px] xl:mt-[0px]'>I also have this excessive hunger to continue learning new things everyday 😅 </p>
+                  <div className='w-fit border border-white px-[15px] py-[10px] rounded-full flex space-x-3 hovering-arrow'>
+                    <img src="./icons/Arrow.svg" alt="" className='arrow'/>
+                    <p className='text-[16px]'>Know more</p>
+                  </div>
                 </div>
               </div>
-              <div className='flex flex-col mt-5 space-y-[30px]'>
-                <div className='border-l-white border-l-[1px] h-[70px]'/>
+              <div className='hidden lg:flex lg:flex-col mt-5 lg:space-y-[30px] xl:space-y-[20px] xl:mt-[80px]'>
+                <div className='border-l-white border-l-[1px] h-[70px] lg:ml-[30px]'/>
                 <div className="mx-auto flex flex-col space-y-[40px]">
-                  <Link href="https://www.facebook.com/adetunji.adeyinka.1238" passHref>
-                    <a target="_blank" rel="noopener noreferrer">
-                      <img src="icons/social-icons/facebook.svg" alt=""/>
-                    </a>
-                  </Link>
+                  <div className='w-14 h-14 flex hoverAnimation items-center justify-center'>
+                    <Link href="https://www.facebook.com/adetunji.adeyinka.1238" passHref>
+                      <a target="_blank" rel="noopener noreferrer" className=''>
+                        <img src="icons/social-icons/facebook.svg" className='w-[31.81px] h-[31.81px]' alt=""/>
+                      </a>
+                    </Link>
+                  </div>
+                  <div className='w-14 h-14 flex hoverAnimation items-center justify-center'>
                   <Link href="https://www.instagram.com/itzadetunji/" passHref>
-                    <a target="_blank" rel="noopener noreferrer">
-                      <img src="icons/social-icons/instagram.svg" alt=""/>
+                    <a target="_blank" rel="noopener noreferrer" className=''>
+                      <img src="icons/social-icons/instagram.svg" className='w-[31.81px] h-[31.81px]' alt=""/>
                     </a>
                   </Link>
+                  </div>
+                  <div className='w-14 h-14 flex hoverAnimation items-center justify-center'>
                   <Link href="https://twitter.com/itzadetunji1" passHref>
-                    <a target="_blank" rel="noopener noreferrer">
-                      <img src="icons/social-icons/twitter.svg" alt=""/>
+                    <a target="_blank" rel="noopener noreferrer" className=''>
+                      <img src="icons/social-icons/twitter.svg" className='w-[31.81px] h-[31.81px]' alt=""/>
                     </a>
                   </Link>
+                  </div>                  
                 </div>
-                <div className='border-l-white border-l-[1px] h-[70px]'/>
+                <div className='border-l-white border-l-[1px] h-[70px] lg:ml-[30px]'/>
               </div>
             </div>
           </div>
         </div>
-        <div className='mt-[100px]'>
+        <div className='mt-[100px] lg:hidden'>
           <Button link={'/about'} text={'Know More'} height={'260px'} width={'94px'}/>
         </div>
-        <div className='mt-[95px]'>
+        <div className='mt-[95px] lg:hidden'>
           <Social_Links/>
         </div>
       </div>
@@ -82,6 +92,9 @@ const index : NextPage = () => {
       </div> */}
       <div className='lg:hidden'>
         <Footer/>
+      </div>
+      <div className='absolute z-0'>
+        <ParticleComponent/>
       </div>
     </>
   )

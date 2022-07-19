@@ -91,3 +91,26 @@ hr.light-blue{
 .indexing{
   z-index: 50;
 }
+
+@layer components{
+  .hoverAnimation {
+    @apply hover:bg-[#d9d9d9] hover:bg-opacity-10 rounded-full w-[100px] h-[100px] cursor-pointer transition duration-500 ease-in-out;
+  }
+}
+
+.arrow {
+  width: 25px;
+}
+
+/* .hovering-arrow
+{
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+} */
+div:hover + .arrow
+{
+  width: 100px;
+}
