@@ -9,6 +9,7 @@ import ParticleComponent from './components/ParticleComponent'
 import TestimonialCard from './components/TestimonialCard'
 import TechStack from './components/TechStack'
 import Social_Links from './components/SocialLinks'
+import Link from 'next/link'
 
 const about: NextPage = () => {
 
@@ -78,33 +79,37 @@ const about: NextPage = () => {
 
   return (
     <>
-      <Navbar/>
+      {/* <Navbar/> */}
       <div className="mt-[165px] mx-auto justify-center">
-        <div className='mx-[35px]'>
-          <div>
-            <p className='text-white font-[600] text-[40px]'>About Me</p>
-            <hr className='light-blue border-[3px] w-[110px] mt-[16px]'/>
-          </div>
-          <div className='text-white mt-[73px]'>
-            <img src="./images/me.jpeg" alt="" className='w-[363px] h-[528px]'/>
-            <div className='mt-[100px] text-[20px] text-center'>
-              <p>I’m a fullstack web developer who provides quality services of industry satandard.</p>
-              <p className='mt-[20px]'>I love finding new ways to solve existing problems ;</p>
-              <p className='mt-[20px]'>
-              I am a fullstack web developer based in Lagos State, Nigeria. I started my coding journey in 2017 through a friend. 
-              </p>
-              <p className='mt-[20px]'>I love finding new ways to solve existing problems ;</p>
-              <p className='mt-[20px]'>I also have this excessive hunger to continue learning new things everyday 😅 </p>
+        <div className='mx-[35px] lg:mx-[60px]'>
+          <div className='text-white mt-[73px] xl:-mt-[20px] lg:flex lg:flex-row md:items-end lg:space-x-[100px] xl:space-x-[170px] 2xl:space-x-[280px]'>
+            <img src="./images/me.jpeg" alt="" className='w-[363px] xl:w-[400px] h-[528px] xl:h-[582px] mx-auto lg:mx-[0px]'/>
+            <div className='mt-[100px] lg:mt-[0px] text-center lg:text-left'>
+              <p className='text-white font-[600] text-[55px] lg:text-[37px] leading-[60px] hidden lg:block'>About Me</p>
+              <hr className='light-blue border-[3px] w-[224px] sm:w-[204px] lg:w-[140px] mt-[35px] lg:mt-[20px] hidden lg:block'/>
+              <div className='lg:w-[360px] xl:w-[450px] text-center lg:text-left mx-auto font-light text-[25px] lg:text-[16px] xl:text-[20px] xl:leading-[30px] 2xl:leading-[33px]'>
+                <p className='mt-[20px] lg:mt-[40px]'>
+                I am a fullstack web developer based in Lagos State, Nigeria. I started my coding journey in 2017 and now I have over 4+ years of experience. 
+                </p>
+                <p className='mt-[20px]'>I love finding new ways to solve existing problems ;)I love finding new ways to solve existing problems ;)</p>
+                <p className='mt-[20px]'>I also have this excessive hunger to continue learning new things everyday 😅I also have this excessive hunger to continue learning new things everyday 😅 </p>
+                <div className='hidden lg:block'>
+                  <div className='w-fit px-[20px] py-[13px] grey rounded-full flex space-x-3 hovering-arrow mt-[30px]'>
+                    <p className='text-[16px]'>Get CV</p>
+                    <img src="./icons/Arrow.svg" alt="" className='arrow'/>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div className='mt-[50px]'>
-            <Button link={'#'} text={'GET CV'} height={'200px'} width={'72.3px'} />
+          <div className='mt-[50px] lg:hidden'>
+            <Button link={'https://www.linkedin.com/in/adetunji-adeyinka-8aa5311b9/'} text={'GET CV'} height={'200px'} width={'72.3px'} />
           </div>
           <div className='mt-[100px]'>
             <p className='text-white font-[600] text-[40px]'>My Services</p>
             <hr className='light-blue border-[3px] w-[55px] mt-[13px]'/>
           </div>
-          <div>
+          <div className='flex flex-col lg:flex-row space-y-[79px] lg:space-y-[0px] lg:space-x-[50px] mt-[79px]'>
             {ServiceCardContents.map((service, index) => <ServiceCard iconpath={service.iconpath} title={service.title} description={service.description} key={index}/>)}
           </div>
           <div className='mt-[100px]'>
@@ -117,7 +122,7 @@ const about: NextPage = () => {
           <div className='mt-[100px]'>
             <p className='text-white font-[600] text-[40px]'>What People Say About Me</p>
             <hr className='light-blue border-[3px] w-[55px] mt-[13px]'/>
-            <p className='text-white font-[400] text-center leading-[34px] pt-[37px] text-[16px]'>Building a great app involves more than just design and programming. I listen to your requirements to ensure you're satisfied. Listen to others' comments.</p>
+            <p className='text-white font-[400] text-center leading-[34px] pt-[37px] text-[20px]'>Building a great app involves more than just design and programming. I listen to your requirements to ensure you're satisfied. Listen to others' comments.</p>
           </div>
           <div>
             {TestimonialCardContents.map((testimonial, index) => <TestimonialCard imagepath={testimonial.imagepath} name={testimonial.name} role={testimonial.role} description={testimonial.description}/>)}
@@ -134,7 +139,36 @@ const about: NextPage = () => {
           </div>
         </div>
       </div>
-      {/* <ParticleComponent/> */}
+      <div className='lg:absolute lg:top-[200px] xl:top-[150px] right-[50px]'>
+        <div className='hidden lg:flex lg:flex-col mt-5 lg:space-y-[30px] xl:mt-[80px]'>
+          <div className='border-l-white border-l-[1px] h-[70px] lg:ml-[30px]'/>
+          <div className="mx-auto flex flex-col space-y-[40px]">
+            <div className='w-14 h-14 flex hoverAnimation items-center justify-center'>
+              <Link href="https://www.facebook.com/adetunji.adeyinka.1238" passHref>
+                <a target="_blank" rel="noopener noreferrer" className=''>
+                  <img src="icons/social-icons/facebook.svg" className='w-[31.81px] h-[31.81px]' alt=""/>
+                </a>
+              </Link>
+            </div>
+            <div className='w-14 h-14 flex hoverAnimation items-center justify-center'>
+            <Link href="https://www.instagram.com/itzadetunji/" passHref>
+              <a target="_blank" rel="noopener noreferrer" className=''>
+                <img src="icons/social-icons/instagram.svg" className='w-[31.81px] h-[31.81px]' alt=""/>
+              </a>
+            </Link>
+            </div>
+            <div className='w-14 h-14 flex hoverAnimation items-center justify-center'>
+            <Link href="https://twitter.com/itzadetunji1" passHref>
+              <a target="_blank" rel="noopener noreferrer" className=''>
+                <img src="icons/social-icons/twitter.svg" className='w-[31.81px] h-[31.81px]' alt=""/>
+              </a>
+            </Link>
+            </div>                  
+          </div>
+          <div className='border-l-white border-l-[1px] h-[70px] lg:ml-[30px]'/>
+        </div>
+      </div>
+        {/* <ParticleComponent/> */}
       <Footer/>
     </>
   )
