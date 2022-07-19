@@ -34,9 +34,9 @@ const index : NextPage = () => {
                   </p>
                   <p className='mt-[20px] xl:mt-[0px]'>I love finding new ways to solve existing problems ;)</p>
                   <p className='mt-[20px] xl:mt-[0px]'>I also have this excessive hunger to continue learning new things everyday 😅 </p>
-                  <div className='w-fit border border-white px-[15px] py-[10px] rounded-full flex space-x-3 hovering-arrow'>
-                    <img src="./icons/Arrow.svg" alt="" className='arrow'/>
+                  <div className='w-fit px-[20px] py-[13px] grey rounded-full flex space-x-3 hovering-arrow mt-[30px]'>
                     <p className='text-[16px]'>Know more</p>
+                    <img src="./icons/Arrow.svg" alt="" className='arrow'/>
                   </div>
                 </div>
               </div>
