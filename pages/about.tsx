@@ -39,13 +39,13 @@ const about: NextPage = () => {
         title: 'Discover', 
         description: 'I scour the web and conduct personal reserach to find out the problems facing the problem I am trying to solve.'
     },
-    {
-        iconpath: '/icons/work-process-icons/pencil.svg', 
-        width: '51px', 
-        height: '45.14px', 
-        title: 'Define', 
-        description: 'I think about the various solutions that could be used for the problem that has been found.'
-    },
+    // {
+    //     iconpath: '/icons/work-process-icons/pencil.svg', 
+    //     width: '51px', 
+    //     height: '45.14px', 
+    //     title: 'Define', 
+    //     description: 'I think about the various solutions that could be used for the problem that has been found.'
+    // },
     {
         iconpath: '/icons/work-process-icons/ponder.svg', 
         width: '53px', 
@@ -63,6 +63,18 @@ const about: NextPage = () => {
   ]
 
   const TestimonialCardContents = [
+    {
+        imagepath: '/images/testimonial1.png', 
+        name: 'Ludwig Dieter',
+        role: 'FullStack Developer', 
+        description: "After going through all the steps, I get into the zone 👨🏿‍💻and deliver quality and scalable applications.After going through all the steps, I get into the zone 👨🏿‍💻and deliver quality and scalable applications"
+    },
+    {
+        imagepath: '/images/testimonial1.png', 
+        name: 'Ludwig Dieter',
+        role: 'FullStack Developer', 
+        description: "After going through all the steps, I get into the zone 👨🏿‍💻and deliver quality and scalable applications.After going through all the steps, I get into the zone 👨🏿‍💻and deliver quality and scalable applications"
+    },
     {
         imagepath: '/images/testimonial1.png', 
         name: 'Ludwig Dieter',
@@ -116,16 +128,18 @@ const about: NextPage = () => {
             <p className='text-white font-[600] text-[40px]'>My Work Process</p>
             <hr className='light-blue border-[3px] w-[55px] mt-[13px]'/>
           </div>
-          <div>
+          <div className='flex flex-col lg:flex-row space-y-[65px] lg:space-y-0 lg:space-x-[50px] mt-[79px]'>
             {WorkProcessContents.map((process, index) => <WorkProcess iconpath={process.iconpath} title={process.title} description={process.description} width={process.width} height={process.height} key={index}/>)}
           </div>
           <div className='mt-[100px]'>
             <p className='text-white font-[600] text-[40px]'>What People Say About Me</p>
             <hr className='light-blue border-[3px] w-[55px] mt-[13px]'/>
-            <p className='text-white font-[400] text-center leading-[34px] pt-[37px] text-[20px]'>Building a great app involves more than just design and programming. I listen to your requirements to ensure you're satisfied. Listen to others' comments.</p>
           </div>
-          <div>
-            {TestimonialCardContents.map((testimonial, index) => <TestimonialCard imagepath={testimonial.imagepath} name={testimonial.name} role={testimonial.role} description={testimonial.description}/>)}
+          <div className='lg:flex lg:flex-row lg:space-x-[100px]'>
+            <p className='text-white font-[400] text-center lg:text-left leading-[34px] lg:leading-[40px] pt-[37px] text-[20px] lg:mt-[100px] lg:w-[350px]'>Building a great app involves more than just design and programming. I listen to your requirements to ensure you're satisfied. Listen to others' comments.</p>
+            <div className='lg:grid lg:grid-cols-1 xl:grid-cols-2'>
+              {TestimonialCardContents.map((testimonial, index) => <TestimonialCard imagepath={testimonial.imagepath} name={testimonial.name} role={testimonial.role} description={testimonial.description}/>)}
+            </div>
           </div>
           <div className='mt-[100px]'>
             <p className='text-white font-[600] text-[40px]'>My Tech Stack</p>
