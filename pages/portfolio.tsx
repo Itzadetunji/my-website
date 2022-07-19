@@ -13,9 +13,7 @@ import PortfolioCard from './components/PortfolioCard'
 const portfolio : NextPage = () => {
   return (
     <>
-    <ParticleComponent/>
-    <div className='absolute z-50'>
-    <Navbar/>
+      <Navbar/>
       <div className="mt-[165px] mx-auto justify-center">
         <div className='mx-[35px]'>
         <div>
@@ -29,6 +27,7 @@ const portfolio : NextPage = () => {
           </div>
         </div>
       </div>
+      {/* <ParticleComponent/> */}
       <div className='mt-[100px] grey mx-[30px] rounded-[30px]'>
         <PortfolioCard/>
       </div>
@@ -36,7 +35,6 @@ const portfolio : NextPage = () => {
         <Social_Links/>
       </div>
       <Footer/>
-    </div>
     </>
   )
 };
