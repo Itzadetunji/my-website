@@ -121,7 +121,7 @@ const about: NextPage = () => {
             <p className='text-white font-[600] text-[40px]'>My Services</p>
             <hr className='light-blue border-[3px] w-[55px] mt-[13px]'/>
           </div>
-          <div className='flex flex-col space-y-[110px] lg:space-y-0 mx-auto lg:grid lg:grid-cols-3 lg:gap-x-[102px] mt-[86.5px]'>
+          <div className='mt-[79px] md:mt-[86.5px] flex flex-col lg:grid lg:grid-cols-3 space-y-[102px] lg:space-y-0 md:grid-x-5 lg:grid-x-10'>
             <ServiceCard 
               iconPath={'bullseye.svg'} 
               title={'Goal Oriented'} 
