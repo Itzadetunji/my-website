@@ -42,7 +42,7 @@ const about: NextPage = () => {
   return (
     <>
       {/* <Navbar/> */}
-      <div className="mt-[165px] mx-[30px] justify-center">
+      <div className="mt-[165px] mx-auto justify-center">
         <div className='mx-[35px] lg:mx-[60px]'>
           <div className='text-white mt-[73px] xl:-mt-[20px] lg:flex lg:flex-row md:items-end lg:space-x-[100px] xl:space-x-[170px] 2xl:space-x-[280px]'>
             <img src="./images/me.jpeg" alt="" className='w-[363px] xl:w-[400px] h-[528px] xl:h-[582px] mx-auto lg:mx-[0px]'/>
@@ -71,7 +71,7 @@ const about: NextPage = () => {
             <p className='text-white font-[600] text-[40px]'>My Services</p>
             <hr className='light-blue border-[3px] w-[55px] mt-[13px]'/>
           </div>
-          <div className='mt-[79px] -mx-[60px] lg:-mx-[20px]  md:mt-[86.5px] flex flex-col lg:grid lg:grid-cols-3 space-y-[102px] lg:space-y-0'>
+          <div className='mt-[79px] mx-auto sm:-mx-[60px] lg:-mx-[20px]  md:mt-[86.5px] flex flex-col lg:grid lg:grid-cols-3 space-y-[102px] lg:space-y-0'>
             <ServiceCard 
               iconPath={'bullseye.svg'} 
               title={'Goal Oriented'} 
@@ -131,7 +131,7 @@ const about: NextPage = () => {
               <div className=' hidden xl:block'>
                 <TestimonialCard imagePath={'testimonial1.png'} name={'Chike Egonu'} role={'Backend Developer'} description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam velit nam excepturi id ipsam, tenetur earum saepe expedita quisquam veniam!'}/>
               </div>
-              <div className='hidden xl:block'>
+              <div className='hidden xl:block mt-[100px]'>
                 <TestimonialCard imagePath={'testimonial1.png'} name={'Chike Egonu'} role={'Backend Developer'} description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam velit nam excepturi id ipsam, tenetur earum saepe expedita quisquam veniam!'}/>
               </div>
             </div>
