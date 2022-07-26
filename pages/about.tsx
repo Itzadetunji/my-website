@@ -42,7 +42,7 @@ const about: NextPage = () => {
   return (
     <>
       {/* <Navbar/> */}
-      <div className="mt-[165px] mx-auto justify-center">
+      <div className="mt-[165px] mx-[30px] justify-center">
         <div className='mx-[35px] lg:mx-[60px]'>
           <div className='text-white mt-[73px] xl:-mt-[20px] lg:flex lg:flex-row md:items-end lg:space-x-[100px] xl:space-x-[170px] 2xl:space-x-[280px]'>
             <img src="./images/me.jpeg" alt="" className='w-[363px] xl:w-[400px] h-[528px] xl:h-[582px] mx-auto lg:mx-[0px]'/>
@@ -119,17 +119,21 @@ const about: NextPage = () => {
             <p className='text-white font-[600] text-[40px]'>What People Say About Me</p>
             <hr className='light-blue border-[3px] w-[55px] mt-[13px]'/>
           </div>
-          <div className='md:flex lg:flex md:flex-col lg:flex-row lg:space-x-[150px] xl:space-x-[100px]'>
+          <div className='md:flex md:flex-col lg:flex-row lg:space-x-[100px]'>
             <p className='text-white font-[400] text-center lg:text-left leading-[34px] lg:leading-[40px] mt-[37px] lg:mt-[200px] text-[20px] lg:w-[350px]'>Building a great app involves more than just design and programming. I listen to your requirements to ensure you're satisfied. Listen to others' comments.</p>
-            <div className='grid grid-cols-1 gap-y-[45px] mt-[60px]'>
-              <TestimonialCard imagePath={'testimonial1.png'} name={'Chike Egony'} role={'Backend Developer'} description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam velit nam excepturi id ipsam, tenetur earum saepe expedita quisquam veniam!'}/>
-              <TestimonialCard imagePath={'testimonial1.png'} name={'Chike Egony'} role={'Backend Developer'} description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam velit nam excepturi id ipsam, tenetur earum saepe expedita quisquam veniam!'}/>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-y-[45px] mt-[60px]'>
+              <div className='lg:-ml-[70px]'>
+                <TestimonialCard imagePath={'testimonial1.png'} name={'Chike Egonu'} role={'Backend Developer'} description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam velit nam excepturi id ipsam, tenetur earum saepe expedita quisquam veniam!'}/>
+              </div>
+              <div className='lg:ml-[70px]'>
+                <TestimonialCard imagePath={'testimonial1.png'} name={'Chike Egonu'} role={'Backend Developer'} description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam velit nam excepturi id ipsam, tenetur earum saepe expedita quisquam veniam!'}/>
+              </div>
             </div>
           </div>
           <div className='mt-[100px]'>
             <p className='text-white font-[600] text-[40px]'>My Tech Stack</p>
             <hr className='light-blue border-[3px] w-[55px] mt-[13px]'/>
-            <div className='mt-[36px] -mx-[30px]'>
+            <div className='mt-[36px] -mx-[60px]'>
               <TechStack/>
             </div>
           </div>

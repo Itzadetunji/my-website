@@ -10,7 +10,7 @@ interface cardProps {
 
 const TestimonialCard: React.FC<cardProps> = ({imagePath, name, role, description}) => {
   return (
-    <div className='grey w-[334px] rounded-[30px] mx-auto custom-shadow duration-500 ease-in delay-[10ms] pb-[20px]'>
+    <div className='grey w-[334px] md:w-[300px] lg:w-[300px] rounded-[30px] mx-auto custom-shadow duration-500 ease-in delay-[10ms] pb-[20px]'>
       <div className='flex'>
         <img src={`/images/${imagePath}`} alt="" width="76" height="76" className='ml-[30px] mt-[21px]'/>
         <div className='flex flex-col ml-[22px] mt-[21px] space-y-[3px]'>
