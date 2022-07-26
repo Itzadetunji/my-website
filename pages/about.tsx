@@ -142,7 +142,7 @@ const about: NextPage = () => {
             <p className='text-white font-[600] text-[40px]'>My Work Process</p>
             <hr className='light-blue border-[3px] w-[55px] mt-[13px]'/>
           </div>
-          <div className='flex flex-col lg:grid lg:grid-cols space-y-[65px] lg:space-y-0 lg:gap-x-[50px] mt-[79px]'>
+          <div className='flex flex-col lg:grid lg:grid-cols-3 space-y-[65px] lg:space-y-0 lg:gap-x-[50px] mt-[79px]'>
             <WorkProcess 
               iconPath={'lightbulb.svg'} 
               title={'Discover'} 
@@ -150,20 +150,20 @@ const about: NextPage = () => {
               width={'62.7px'} 
               height={'65.21px'}
             />
-            {/* <WorkProcess 
-              iconPath={} 
-              title={} 
-              description={} 
-              width={} 
-              height={}
+            <WorkProcess 
+              iconPath={'ponder.svg'} 
+              title={'Ponder'} 
+              description={"I test answers in a real-world situation to determine whether they fit exactly, and if they don't, I reconsider my strategy."} 
+              width={'53px'} 
+              height={'53px'}
             />
             <WorkProcess 
-              iconPath={} 
-              title={} 
-              description={} 
-              width={} 
-              height={}
-            /> */}
+              iconPath={'implement.png'} 
+              title={'Implement'} 
+              description={"After going through all the steps, I get into the zone 👨🏿‍💻and deliver quality and scalable applications."} 
+              width={'66px'} 
+              height={'66px'}
+            />
           </div>
           <div className='mt-[100px]'>
             <p className='text-white font-[600] text-[40px]'>What People Say About Me</p>
