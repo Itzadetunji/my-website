@@ -30,7 +30,13 @@ const portfolio : NextPage = () => {
         </div>
       </div>
       <div className='mt-[100px] grey mx-[30px] rounded-[30px]'>
-        <PortfolioCard/>
+        <PortfolioCard 
+          imagePath={'portfolio1.png'} 
+          title={'Service Track'} 
+          description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur iure provident mollitia ex facilis adipisci et perspiciatis error suscipit dignissimos?'} 
+          activeLink={'https://google.com'} 
+          gitLink={'https://google.com'}
+        />
       </div>
       <div className='mt-[95px]'>
         <Social_Links/>
