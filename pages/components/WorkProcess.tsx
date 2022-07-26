@@ -9,8 +9,6 @@ interface cardProps {
   description: string
 }
 
-const servicecontent = 1;
-
 const WorkProcess: React.FC<cardProps> = ({iconPath, width, height, title, description}) => {
   return (
     <div className='grey w-[290px] h-[260px] rounded-[67px] mx-auto custom-shadow duration-500 ease-in delay-[10ms]'>
