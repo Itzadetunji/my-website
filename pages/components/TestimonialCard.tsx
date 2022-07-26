@@ -12,7 +12,7 @@ const TestimonialCard: React.FC<cardProps> = ({imagePath, name, role, descriptio
   return (
     <div className='grey w-[334px] rounded-[30px] mx-auto custom-shadow duration-500 ease-in delay-[10ms] pb-[20px] mt-[45px]'>
       <div className='flex'>
-        <img src={imagePath} alt="" width="76" height="76" className='ml-[30px] mt-[21px]'/>
+        <img src={`/images/${imagePath}`} alt="" width="76" height="76" className='ml-[30px] mt-[21px]'/>
         <div className='flex flex-col ml-[22px] mt-[21px] space-y-[3px]'>
           <p className='text-white font-bold text-[18.2px]'>{name}</p>
           <p className='light-blue-text font-bold text-[15.2px]'>{role}</p>

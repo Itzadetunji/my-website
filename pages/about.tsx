@@ -121,10 +121,8 @@ const about: NextPage = () => {
           </div>
           <div className='md:flex lg:flex md:flex-col lg:flex-row lg:space-x-[150px] xl:space-x-[100px]'>
             <p className='text-white font-[400] text-center lg:text-left leading-[34px] lg:leading-[40px] mt-[37px] lg:mt-[200px] text-[20px] lg:w-[350px]'>Building a great app involves more than just design and programming. I listen to your requirements to ensure you're satisfied. Listen to others' comments.</p>
-            <div>
-              <div className='hidden xl:grid xl:grid-cols-2 xl:gap-x-[43px]'>
-                <TestimonialCard />
-              </div>
+            <div className=''>
+              <TestimonialCard imagePath={'testimonial1.png'} name={'Chike Egony'} role={'Backend Developer'} description={'aedadaedaed'}/>
             </div>
           </div>
           <div className='mt-[100px]'>
