@@ -135,13 +135,18 @@ const about: NextPage = () => {
             <p className='text-white font-[600] text-[40px]'>What People Say About Me</p>
             <hr className='light-blue border-[3px] w-[55px] mt-[13px]'/>
           </div>
-          <div className='lg:flex lg:flex-row lg:space-x-[150px] xl:space-x-[150px]'>
-            <p className='text-white font-[400] text-center lg:text-left leading-[34px] lg:leading-[40px] pt-[37px] text-[20px] lg:mt-[100px] lg:w-[350px]'>Building a great app involves more than just design and programming. I listen to your requirements to ensure you're satisfied. Listen to others' comments.</p>
-            <div className='lg:grid lg:grid-cols-1 xl:hidden'>
-              {TestimonialCardContents.splice(0,2).map((testimonial, index) => <TestimonialCard imagepath={testimonial.imagepath} name={testimonial.name} role={testimonial.role} description={testimonial.description}/>)}
-            </div>
-            <div className='xl:grid xl:grid-cols-2 xl:gap-x-[68px] xl:gap-y-[37px]'>
-              {TestimonialCardContents.map((testimonial, index) => <TestimonialCard imagepath={testimonial.imagepath} name={testimonial.name} role={testimonial.role} description={testimonial.description}/>)}
+          <div className='md:flex lg:flex md:flex-col lg:flex-row lg:space-x-[150px] xl:space-x-[100px]'>
+            <p className='text-white font-[400] text-center lg:text-left leading-[34px] lg:leading-[40px] mt-[37px] lg:mt-[200px] text-[20px] lg:w-[350px]'>Building a great app involves more than just design and programming. I listen to your requirements to ensure you're satisfied. Listen to others' comments.</p>
+            <div>
+              <div className='hidden md:flex md:space-x-[20px] lg:hidden'>
+                {TestimonialCardContents.splice(0,2).map((testimonial, index) => <TestimonialCard imagepath={testimonial.imagepath} name={testimonial.name} role={testimonial.role} description={testimonial.description}/>)}
+              </div>
+              <div className='hidden lg:flex lg:flex-col xl:hidden'>
+                {TestimonialCardContents.splice(0,2).map((testimonial, index) => <TestimonialCard imagepath={testimonial.imagepath} name={testimonial.name} role={testimonial.role} description={testimonial.description}/>)}
+              </div>
+              <div className='hidden xl:grid xl:grid-cols-2 xl:gap-x-[43px]'>
+                {TestimonialCardContents.splice(0.4).map((testimonial, index) => <TestimonialCard imagepath={testimonial.imagepath} name={testimonial.name} role={testimonial.role} description={testimonial.description}/>)}
+              </div>
             </div>
           </div>
           <div className='mt-[100px]'>
