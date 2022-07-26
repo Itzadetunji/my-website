@@ -144,6 +144,13 @@ const about: NextPage = () => {
           </div>
           <div className='flex flex-col lg:grid lg:grid-cols space-y-[65px] lg:space-y-0 lg:gap-x-[50px] mt-[79px]'>
             <WorkProcess 
+              iconPath={'lightbulb.svg'} 
+              title={'Discover'} 
+              description={'I scour the web and conduct personal reserach to find out the problems facing the problem I am trying to solve.'} 
+              width={'62.7px'} 
+              height={'65.21px'}
+            />
+            {/* <WorkProcess 
               iconPath={} 
               title={} 
               description={} 
@@ -156,14 +163,7 @@ const about: NextPage = () => {
               description={} 
               width={} 
               height={}
-            />
-            <WorkProcess 
-              iconPath={} 
-              title={} 
-              description={} 
-              width={} 
-              height={}
-            />
+            /> */}
           </div>
           <div className='mt-[100px]'>
             <p className='text-white font-[600] text-[40px]'>What People Say About Me</p>
