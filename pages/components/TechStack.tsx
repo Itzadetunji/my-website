@@ -154,10 +154,10 @@ const TechStack: NextPage = () => {
     <>
     <div className='overflow-hidden flex flex-col space-y-3'>
       <div className='flex flex-row space-x-[47px] techStackCarousel1 relative'>
-        {TechStackContents1.map((stack) => <img src={stack.path} alt={stack.name}/>)}
+        {TechStackContents1.map((stack, index) => <img src={stack.path} alt={stack.name} key={index}/>)}
       </div>
       <div className='flex flex-row space-x-[47px] techStackCarousel2 relative'>
-        {TechStackContents2.map((stack2) => <img src={stack2.path} alt={stack2.name}/>)}
+        {TechStackContents2.map((stack2, index) => <img src={stack2.path} alt={stack2.name} key={index}/>)}
       </div>
     </div>
     </>

@@ -121,11 +121,17 @@ const about: NextPage = () => {
           </div>
           <div className='md:flex md:flex-col lg:flex-row lg:space-x-[100px]'>
             <p className='text-white font-[400] text-center lg:text-left leading-[34px] lg:leading-[40px] mt-[37px] lg:mt-[200px] text-[20px] lg:w-[350px]'>Building a great app involves more than just design and programming. I listen to your requirements to ensure you're satisfied. Listen to others' comments.</p>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-y-[45px] mt-[60px]'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-y-[45px] mt-[60px]'>
               <div className='lg:-ml-[70px]'>
                 <TestimonialCard imagePath={'testimonial1.png'} name={'Chike Egonu'} role={'Backend Developer'} description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam velit nam excepturi id ipsam, tenetur earum saepe expedita quisquam veniam!'}/>
               </div>
               <div className='lg:ml-[70px]'>
+                <TestimonialCard imagePath={'testimonial1.png'} name={'Chike Egonu'} role={'Backend Developer'} description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam velit nam excepturi id ipsam, tenetur earum saepe expedita quisquam veniam!'}/>
+              </div>
+              <div className=' hidden xl:block'>
+                <TestimonialCard imagePath={'testimonial1.png'} name={'Chike Egonu'} role={'Backend Developer'} description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam velit nam excepturi id ipsam, tenetur earum saepe expedita quisquam veniam!'}/>
+              </div>
+              <div className='hidden xl:block'>
                 <TestimonialCard imagePath={'testimonial1.png'} name={'Chike Egonu'} role={'Backend Developer'} description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam velit nam excepturi id ipsam, tenetur earum saepe expedita quisquam veniam!'}/>
               </div>
             </div>
