@@ -121,7 +121,7 @@ const about: NextPage = () => {
             <p className='text-white font-[600] text-[40px]'>My Services</p>
             <hr className='light-blue border-[3px] w-[55px] mt-[13px]'/>
           </div>
-          <div className='mt-[79px] md:mt-[86.5px] flex flex-col lg:grid lg:grid-cols-3 space-y-[102px] lg:space-y-0 md:grid-x-5 lg:grid-x-10'>
+          <div className='mt-[79px] md:mt-[86.5px] flex flex-col lg:grid lg:grid-cols-3 space-y-[102px] lg:space-y-0 lg:grid-x-10'>
             <ServiceCard 
               iconPath={'bullseye.svg'} 
               title={'Goal Oriented'} 
@@ -142,8 +142,28 @@ const about: NextPage = () => {
             <p className='text-white font-[600] text-[40px]'>My Work Process</p>
             <hr className='light-blue border-[3px] w-[55px] mt-[13px]'/>
           </div>
-          <div className='flex flex-col lg:flex-row space-y-[65px] lg:space-y-0 lg:space-x-[50px] mt-[79px]'>
-            {WorkProcessContents.map((process, index) => <WorkProcess iconpath={process.iconpath} title={process.title} description={process.description} width={process.width} height={process.height} key={index}/>)}
+          <div className='flex flex-col lg:grid lg:grid-cols space-y-[65px] lg:space-y-0 lg:gap-x-[50px] mt-[79px]'>
+            <WorkProcess 
+              iconPath={} 
+              title={} 
+              description={} 
+              width={} 
+              height={}
+            />
+            <WorkProcess 
+              iconPath={} 
+              title={} 
+              description={} 
+              width={} 
+              height={}
+            />
+            <WorkProcess 
+              iconPath={} 
+              title={} 
+              description={} 
+              width={} 
+              height={}
+            />
           </div>
           <div className='mt-[100px]'>
             <p className='text-white font-[600] text-[40px]'>What People Say About Me</p>
