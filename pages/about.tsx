@@ -12,56 +12,6 @@ import Social_Links from './components/SocialLinks'
 import Link from 'next/link'
 
 const about: NextPage = () => {
-
-  const ServiceCardContents = [
-    {
-        iconpath: '/icons/service-icons/bullseye.svg', 
-        title: 'Goal Oriented', 
-        description: 'I check your website before making changes. I seek for potential user problems, big or small, and offer fixes to ensure your user is on the right path to attain their goals.'
-    },
-    {
-        iconpath: '/icons/service-icons/scalable.svg', 
-        title: 'Scalability', 
-        description: 'I develop scalable websites with your goals in mind. I make websites easy to update and maintenance so your team has full control.'
-    },
-    {
-        iconpath: '/icons/service-icons/quality.svg', 
-        title: 'Quality Assured', 
-        description: 'I check your website before making changes. I seek for potential user problems, big or small, and offer fixes to ensure your user is on the right path to attain their goals.'
-    },
-  ]
-
-  const WorkProcessContents = [
-    {
-        iconpath: '/icons/work-process-icons/lightbulb.svg', 
-        width: '62.7px', 
-        height: '65.21px', 
-        title: 'Discover', 
-        description: 'I scour the web and conduct personal reserach to find out the problems facing the problem I am trying to solve.'
-    },
-    // {
-    //     iconpath: '/icons/work-process-icons/pencil.svg', 
-    //     width: '51px', 
-    //     height: '45.14px', 
-    //     title: 'Define', 
-    //     description: 'I think about the various solutions that could be used for the problem that has been found.'
-    // },
-    {
-        iconpath: '/icons/work-process-icons/ponder.svg', 
-        width: '53px', 
-        height: '53px', 
-        title: 'Ponder', 
-        description: "I test answers in a real-world situation to determine whether they fit exactly, and if they don't, I reconsider my strategy."
-    },
-    {
-        iconpath: '/icons/work-process-icons/implement.png', 
-        width: '66px', 
-        height: '66px', 
-        title: 'Implement', 
-        description: "After going through all the steps, I get into the zone 👨🏿‍💻and deliver quality and scalable applications."
-    },
-  ]
-
   const TestimonialCardContents = [
     {
         imagepath: '/images/testimonial1.png', 
@@ -172,14 +122,8 @@ const about: NextPage = () => {
           <div className='md:flex lg:flex md:flex-col lg:flex-row lg:space-x-[150px] xl:space-x-[100px]'>
             <p className='text-white font-[400] text-center lg:text-left leading-[34px] lg:leading-[40px] mt-[37px] lg:mt-[200px] text-[20px] lg:w-[350px]'>Building a great app involves more than just design and programming. I listen to your requirements to ensure you're satisfied. Listen to others' comments.</p>
             <div>
-              <div className='hidden md:flex md:space-x-[20px] lg:hidden'>
-                {TestimonialCardContents.splice(0,2).map((testimonial, index) => <TestimonialCard imagepath={testimonial.imagepath} name={testimonial.name} role={testimonial.role} description={testimonial.description}/>)}
-              </div>
-              <div className='hidden lg:flex lg:flex-col xl:hidden'>
-                {TestimonialCardContents.splice(0,2).map((testimonial, index) => <TestimonialCard imagepath={testimonial.imagepath} name={testimonial.name} role={testimonial.role} description={testimonial.description}/>)}
-              </div>
               <div className='hidden xl:grid xl:grid-cols-2 xl:gap-x-[43px]'>
-                {TestimonialCardContents.splice(0.4).map((testimonial, index) => <TestimonialCard imagepath={testimonial.imagepath} name={testimonial.name} role={testimonial.role} description={testimonial.description}/>)}
+                <TestimonialCard />
               </div>
             </div>
           </div>
