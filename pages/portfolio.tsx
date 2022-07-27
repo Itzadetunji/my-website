@@ -17,9 +17,9 @@ const portfolio : NextPage = () => {
     <div className=''>
     {/* <Navbar/> */}
       <div className='mx-auto'>
-        <div className="mt-[165px] mx-auto justify-center">
-          <div className='mx-[35px]'>
-          <div>
+        <div className="mt-[165px] mx-[90px] justify-center">
+          <div className='mx-auto'>
+            <div>
               <p className='text-white font-[600] text-[40px]'>My Portfolio</p>
               <hr className='light-blue border-[3px] w-[55px] mt-[16px]'/>
             </div>
