@@ -18,7 +18,7 @@ const portfolio : NextPage = () => {
     {/* <Navbar/> */}
       <div className='mx-auto'>
         <div className="mt-[165px] mx-[90px]">
-          <div className='mx-auto'>
+          <div className='mx-[30px]'>
             <div>
               <p className='text-white font-[600] text-[40px]'>My Portfolio</p>
               <hr className='light-blue border-[3px] w-[55px] mt-[16px]'/>
@@ -60,14 +60,22 @@ const portfolio : NextPage = () => {
             gitLink={'https://google.com'}
           />
         </div>
-        <div className='mt-[120px] mx-[87px]'>
+        <div className='mt-[120px] mx-[90px]'>
           <div>
             <p className='text-white font-[600] text-[40px]'>Let's Talk</p>
             <hr className='light-blue border-[3px] w-[55px] mt-[16px]'/>
           </div>
           <div className='grid grid-cols-2 mt-[70px]'>
-            <div>
+            <div className='flex flex-col'>
               <p className='w-[495px] text-white text-[30px] font-[400]'>Hi 👋🏿, Adetunji here. Lets get in touch sometime to work on something great 😅</p>
+              <div className=''>
+                <a href='/contact'>
+                  <div className={`rounded-full text-center items-center justify-center grey w-[200px] h-[72.3px] custom-shadow duration-500 ease-in delay-[10ms] flex space-x-[8px]`}>
+                    <p className='text-[19px] text-white'>Legoooo</p>
+                    <img src="./icons/Arrow.svg" alt="" className='w-[30px]'/>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </div>
