@@ -47,14 +47,14 @@ const contact : NextPage = () => {
 	};
   return (
     <>
-      <Navbar/>
+      {/* <Navbar/> */}
       <div className="mt-[165px] mx-auto justify-center">
-        <div className='mx-[35px]'>
-        <div>
+        <div className=''>
+        	<div className='mx-[30px] md:mx-[60px] lg:mx-[90px]'>
             <p className='text-white font-[600] text-[40px]'>Let's chat</p>
             <hr className='light-blue border-[3px] w-[85px] mt-[16px]'/>
           </div>
-          <div className='text-white mt-[80px] mx-auto'>
+          <div className='text-white mt-[80px] mx-[30px] md:mx-[60px] lg:mx-[90px]'>
             <form onSubmit={handleContactFormSubmit}>
               <div className='mt-[45px] flex flex-col space-y-[33px]'>
                 <input type="text" name='name' placeholder='What’s your name ?' className='grey placeholder:-pl-[15px] placeholder:text-[16px] placeholder:text-white text-[16px] px-[20px] h-[70px] rounded-[30px] outline-none' value={contactFormData.name} onChange={(e) => setContactFormData({...contactFormData, name: e.target.value,})}/>
@@ -80,7 +80,7 @@ const contact : NextPage = () => {
 									})
 								}></textarea>
               </div>
-              <input type="submit" id="submit" className='mt-[40px] custom-shadow mx-[100px] rounded-full text-center items-center justify-center grey w-[170px] h-[60.3px] duration-500 ease-in delay-[10ms]' value='Send Message'/>
+              <input type="submit" id="submit" className='mt-[40px] custom-shadow mx-auto rounded-full text-center items-center justify-center grey w-[170px] h-[60.3px] duration-500 ease-in delay-[10ms]' value='Send Message'/>
             </form>
           </div>
         </div>
