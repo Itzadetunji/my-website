@@ -44,9 +44,9 @@ const about: NextPage = () => {
       {/* <Navbar/> */}
       <div className="mt-[165px] mx-[30px]">
         <div className='xs:mx-[35px] lg:mx-[60px]'>
-          <div className='text-white mt-[73px] xl:-mt-[20px] lg:flex lg:flex-row md:items-end lg:space-x-[100px] xl:space-x-[170px] 2xl:space-x-[280px]'>
+          <div className='text-white mt-[73px] xl:-mt-[20px] lg:-ml-[100px] xl:-ml-[170px] lg:flex lg:flex-row md:items-end lg:space-x-[100px] xl:space-x-[170px] 2xl:space-x-[280px]'>
             <p className='text-white font-[600] text-[55px] leading-[60px] lg:hidden'>About Me</p>
-            <hr className='light-blue border-[3px] w-[224px] mt-[35px] lg:hidden'/>
+            <hr className='light-blue border-[3px] w-[150px] mt-[25px] mb-[70px] lg:hidden'/>
             <img src="./images/me.jpeg" alt="" className='w-[363px] xl:w-[400px] h-[528px] xl:h-[582px] mx-auto lg:mx-[0px]'/>
             <div className='mt-[100px] lg:mt-[0px] text-center lg:text-left'>
               <p className='text-white font-[600] text-[55px] lg:text-[37px] leading-[60px] hidden lg:block'>About Me</p>
