@@ -10,7 +10,7 @@ interface ProfileCardProps {
 
 const PortfolioCard : React.FC<ProfileCardProps> = ({imagePath, title, description, activeLink, gitLink}) => {
   return (
-    <div className='pb-[40px] grey rounded-[30px] mx-auto w-[250px] sm:w-[400px] md:w-[500px] lg:w-[400px] xl:w-[500px]'>
+    <div className='pb-[40px] grey rounded-[30px] mx-auto w-[260px] sm:w-[400px] md:w-[500px] lg:w-[400px] xl:w-[500px]'>
       <img src={`images/portfolio/${imagePath}`} alt="" className='w-full rounded-t-[30px]'/>
       <div className='mx-[32px] mt-[45px] text-white'>
         <p className='text-[32px] font-[600]'>{title}</p>

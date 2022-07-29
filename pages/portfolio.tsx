@@ -18,7 +18,7 @@ const portfolio : NextPage = () => {
     <div className=''>
     {/* <Navbar/> */}
       <div className='mx-auto'>
-        <div className="mt-[165px] ml-[30px]">
+        <div className="mt-[165px]">
           <div className='mx-[30px]'>
             <div>
               <p className='text-white font-[600] text-[40px] lg:text-[50px]'>My Portfolio</p>
