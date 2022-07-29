@@ -18,11 +18,11 @@ const portfolio : NextPage = () => {
     <div className=''>
     {/* <Navbar/> */}
       <div className='mx-auto'>
-        <div className="mt-[165px] mx-[90px]">
+        <div className="mt-[165px] ml-[30px]">
           <div className='mx-[30px]'>
             <div>
-              <p className='text-white font-[600] text-[40px]'>My Portfolio</p>
-              <hr className='light-blue border-[3px] w-[55px] mt-[16px]'/>
+              <p className='text-white font-[600] text-[40px] lg:text-[50px]'>My Portfolio</p>
+              <div className='border-[#5CBEFF] border-[3px] h-0 w-[55px] lg:w-[64px] mt-[16px]'/>
             </div>
             <div className='text-white mt-[73px]'>
               <div className='mt-[45px] text-[25px] md:text-[30px] text-center'>
