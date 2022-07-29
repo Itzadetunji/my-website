@@ -121,7 +121,7 @@ const contact : NextPage = () => {
 				</div>
       </div>
       {/* <ParticleComponent/> */}
-      <div className='mt-[95px]'>
+      <div className='mt-[95px] lg:hidden'>
         <Social_Links/>
       </div>
       <Footer/>
