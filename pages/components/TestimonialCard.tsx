@@ -18,7 +18,9 @@ const TestimonialCard: React.FC<cardProps> = ({imagePath, name, role, descriptio
           <p className='light-blue-text font-bold text-[15.2px]'>{role}</p>
         </div>
       </div>
-      <p className='text-white mt-[25px] text-center mx-[25px] leading-[27px] font-[400]'>{description}</p>
+      <div className='h-[160px]'>
+        <p className='text-white mt-[25px] text-center mx-[25px] leading-[27px] font-[400]'>{description}</p>
+      </div>
     </div>
   )
 }
