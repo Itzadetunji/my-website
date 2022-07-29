@@ -86,7 +86,7 @@ const contact : NextPage = () => {
 									<input type="submit" id="submit" className='mt-[40px] custom-shadow rounded-full text-center items-center justify-center grey w-[170px] h-[70px] duration-500 ease-in delay-[10ms] hidden md:block' value='Send Message'/>
 								</div>
               </div>
-              <input type="submit" id="submit" className='mt-[40px] custom-shadow mx-auto rounded-full text-center items-center justify-center grey w-[170px] h-[60.3px] duration-500 ease-in delay-[10ms] md:hidden' value='Send Message'/>
+              <input type="submit" id="submit" className='mt-[40px] custom-shadow mx-auto rounded-full text-center grey w-[170px] h-[60.3px] duration-500 ease-in delay-[10ms] md:hidden' value='Send Message'/>
             </form>
           </div>
         </div>
