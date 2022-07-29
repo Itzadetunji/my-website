@@ -149,7 +149,7 @@ const about: NextPage = () => {
               <TechStack/>
             </div>
           </div>
-          <div className='mt-[100px]'>
+          <div className='mt-[100px] lg:hidden'>
             <Social_Links/>
           </div>
         </div>
