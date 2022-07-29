@@ -76,14 +76,14 @@ const contact : NextPage = () => {
 								}/>
 								</div>
 								<div className='flex flex-col'>
-									<textarea name="message" id="" className='grey rounded-[30px] h-[214px] md:h-[173px] resize-none px-[20px] placeholder:text-white placeholder:text-[16px] pt-[24px] text-[16px] outline-none' placeholder='What do you want to talk about?' value={contactFormData.message}
+									<textarea name="message" id="" className='grey rounded-[30px] h-[214px] md:h-[185px] resize-none px-[20px] placeholder:text-white placeholder:text-[16px] pt-[24px] text-[16px] outline-none' placeholder='What do you want to talk about?' value={contactFormData.message}
 									onChange={(e) =>
 										setContactFormData({
 											...contactFormData,
 											message: e.target.value,
 										})
 									}></textarea>
-									<input type="submit" id="submit" className='mt-[40px] custom-shadow rounded-full text-center items-center justify-center grey w-[170px] h-[60.3px] duration-500 ease-in delay-[10ms]' value='Send Message'/>
+									<input type="submit" id="submit" className='mt-[40px] custom-shadow rounded-full text-center items-center justify-center grey w-[170px] h-[70px] duration-500 ease-in delay-[10ms] hidden md:block' value='Send Message'/>
 								</div>
               </div>
               <input type="submit" id="submit" className='mt-[40px] custom-shadow mx-auto rounded-full text-center items-center justify-center grey w-[170px] h-[60.3px] duration-500 ease-in delay-[10ms] md:hidden' value='Send Message'/>
