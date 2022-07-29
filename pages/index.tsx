@@ -72,7 +72,6 @@ const index : NextPage = () => {
                 <div className='border-l-white border-l-[1px] h-[70px] lg:ml-[30px]'/>
               </div>
             </div>
-            
           </div>
         </div>
         <div className='mt-[100px] lg:hidden'>
