@@ -94,7 +94,7 @@ const about: NextPage = () => {
             <p className='text-white font-[600] text-[40px]'>My Work Process</p>
             <hr className='light-blue border-[3px] w-[55px] mt-[13px]'/>
           </div>
-          <div className='flex flex-col lg:grid lg:grid-cols-3 space-y-[65px] lg:space-y-0 lg:gap-x-[50px] mt-[79px]'>
+          <div className='flex flex-col lg:grid lg:grid-cols-3 space-y-[65px] lg:space-y-0 lg:gap-x-[50px] mt-[79px] sm:-mx-[60px] lg:-mx-[20px] xl:-ml-[70px] '>
             <WorkProcess 
               iconPath={'lightbulb.svg'} 
               title={'Discover'} 
@@ -119,22 +119,26 @@ const about: NextPage = () => {
           </div>
           <div className='mt-[100px]'>
             <p className='text-white font-[600] text-[40px]'>What People Say About Me</p>
-            <hr className='light-blue border-[3px] w-[55px] mt-[13px]'/>
+            <hr className='light-blue border-[3px] w-[95px] mt-[13px]'/>
           </div>
-          <div className='md:flex md:flex-col lg:flex-row lg:space-x-[100px]'>
-            <p className='text-white font-[400] text-center lg:text-left leading-[34px] lg:leading-[40px] mt-[37px] lg:mt-[200px] text-[20px] lg:w-[350px]'>Building a great app involves more than just design and programming. I listen to your requirements to ensure you're satisfied. Listen to others' comments.</p>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-y-[45px] mt-[60px]'>
-              <div className='lg:-ml-[70px]'>
-                <TestimonialCard imagePath={'testimonial1.png'} name={'Chike Egonu'} role={'Backend Developer'} description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam velit nam excepturi id ipsam, tenetur earum saepe expedita quisquam veniam!'}/>
+          <div className='flex flex-col xl:flex-row xl:space-x-[100px]'>
+            <p className='text-white font-[400] text-center xl:text-left leading-[34px] xl:leading-[40px] mt-[37px] xl:mt-[200px] text-[20px] xl:w-[350px]'>Building a great app involves more than just design and programming. I listen to your requirements to ensure you're satisfied. Listen to others' comments.</p>
+            <div className='flex xl:flex-row space-y-[45px] space-x-[50px] mt-[60px]'>
+              <div className='flex flex-col md:flex-row lg:flex-row xl:flex-col space-y-[50px] md:space-y-[0px] xl:space-y-[50px] md:space-x-[50px] lg:space-x-[50px] mx-auto'> 
+                <div className=''>
+                  <TestimonialCard imagePath={'testimonial1.png'} name={'Chike Egonu'} role={'Backend Developer'} description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam velit nam excepturi id ipsam, tenetur earum saepe expedita quisquam veniam!'}/>
+                </div>
+                <div className=''>
+                  <TestimonialCard imagePath={'testimonial1.png'} name={'Chike Egonu'} role={'Backend Developer'} description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam velit nam excepturi id ipsam, tenetur earum saepe expedita quisquam veniam!'}/>
+                </div>
               </div>
-              <div className='lg:ml-[70px]'>
-                <TestimonialCard imagePath={'testimonial1.png'} name={'Chike Egonu'} role={'Backend Developer'} description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam velit nam excepturi id ipsam, tenetur earum saepe expedita quisquam veniam!'}/>
-              </div>
-              <div className=' hidden xl:block'>
-                <TestimonialCard imagePath={'testimonial1.png'} name={'Chike Egonu'} role={'Backend Developer'} description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam velit nam excepturi id ipsam, tenetur earum saepe expedita quisquam veniam!'}/>
-              </div>
-              <div className='hidden xl:block mt-[100px]'>
-                <TestimonialCard imagePath={'testimonial1.png'} name={'Chike Egonu'} role={'Backend Developer'} description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam velit nam excepturi id ipsam, tenetur earum saepe expedita quisquam veniam!'}/>
+              <div className=' hidden xl:flex flex-col space-y-[50px]'> 
+                <div className=''>
+                  <TestimonialCard imagePath={'testimonial1.png'} name={'Chike Egonu'} role={'Backend Developer'} description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam velit nam excepturi id ipsam, tenetur earum saepe expedita quisquam veniam!'}/>
+                </div>
+                <div className=''>
+                  <TestimonialCard imagePath={'testimonial1.png'} name={'Chike Egonu'} role={'Backend Developer'} description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam velit nam excepturi id ipsam, tenetur earum saepe expedita quisquam veniam!'}/>
+                </div>
               </div>
             </div>
           </div>
