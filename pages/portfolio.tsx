@@ -6,7 +6,7 @@ import styles from '../styles/Home.module.css'
 import Footer from './components/Footer';
 import Navbar from './components/Navabar'
 import ParticleComponent from './components/ParticleComponent'
-import SocialLinks from './components/SocialLinks'
+import SocialLinks from './components/SocialLinks/SocialLinks'
 import Button from './components/Button'
 import PortfolioCard from './components/PortfolioCard'
 import Link from 'next/link'
