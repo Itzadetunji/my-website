@@ -12,7 +12,7 @@ const index: NextPage = () => {
         <div>
           <img src="/icons/logo.svg" alt="" />
         </div>
-        <div className='flex text-white text-[21px] my-[20px] select-none'>
+        <div className='hidden lg:flex text-white text-[21px] my-[20px] select-none'>
           <a href={'/'}>
             <div className='pr-[50px] cursor-pointer'>
               <NavItem active={router.includes('about') || router.includes('contact') || router.includes('portfolio') ? false : true} title={'Home'} />
