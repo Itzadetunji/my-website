@@ -14,8 +14,8 @@ const index: NextPage = () => {
           <p>Contact</p>
         </div>
         <div className='flex spcae-x-[30px]'>
-          <img src="/icons/logo.svg" alt="" />
-          <img src="/icons/logo.svg" alt="" />
+          <img src="/icons/social-icons/github.svg" alt="" />
+          <img src="/icons/social-icons/linkedin.svg" className='w-[34px] h-[34px]' alt="" />
         </div>
       </div>
     </nav>
