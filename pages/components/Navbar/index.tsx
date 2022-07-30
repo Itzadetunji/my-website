@@ -10,9 +10,9 @@ const index: NextPage = () => {
         </div>
         <div className='flex text-white text-[21px] my-[20px]'>
           <p className='pr-[50px] text-[#5CBEFF]'>Home</p>
-          <p className='pr-[50px] hover:text-[#5CBEFF] duration-300'>About</p>
-          <p className='pr-[50px] hover:text-[#5CBEFF] duration-300'>Portfolio</p>
-          <p className='hover:text-[#5CBEFF] duration-300'>Contact</p>
+          <p className='pr-[50px] hover:text-[#5CBEFF] transition-all duration-300'>About</p>
+          <p className='pr-[50px] hover:text-[#5CBEFF] transition-all duration-300'>Portfolio</p>
+          <p className='hover:text-[#5CBEFF] transition-all duration-300'>Contact</p>
         </div>
         <div className='flex  my-[15px]'>
           <img src="/icons/social-icons/github.svg" className='w-[34px] h-[34px] mr-[30px]' alt="" />
