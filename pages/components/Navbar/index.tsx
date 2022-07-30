@@ -1,13 +1,11 @@
 import { NextPage } from 'next'
+import { useRouter } from "next/router"
 import Link from 'next/link'
 import React from 'react'
 import NavItem from './NavItem'
 
-interface NavProps {
-  active: string,
-}
-
-const index:React.FC<NavProps> = ({active}) => {
+const index: NextPage = () => {
+  const router = useRouter().pathname;
   return (
     <nav className='dark-blue w-full h-[109px]'>
       <div className='flex flex-row mx-[60px] py-[20px] justify-between'>
@@ -16,12 +14,17 @@ const index:React.FC<NavProps> = ({active}) => {
         </div>
         <div className='flex text-white text-[21px] my-[20px]'>
           <div>
-            <NavItem active={true} title={'Home'} />
+            <NavItem active={!router.includes('about') || router.includes('contact') || router.includes('portfolio') || router.includes('contact') ? true : false} title={'Home'} />
           </div>
-          <p className='pr-[50px] text-[#5CBEFF]'>Home</p>
-          <p className='pr-[50px] hover:text-[#5CBEFF] transition-all duration-300'>About</p>
-          <p className='pr-[50px] hover:text-[#5CBEFF] transition-all duration-300'>Portfolio</p>
-          <p className='hover:text-[#5CBEFF] transition-all duration-300'>Contact</p>
+          <div>
+            <NavItem active={router.includes('about') && true} title={'About'} />
+          </div>
+          <div>
+            <NavItem active={router.includes('portfolio') && true} title={'Portfolio'} />
+          </div>
+          <div>
+            <NavItem active={router.includes('contact') && true} title={'Contact'} />
+          </div>
         </div>
         <div className='flex  my-[15px]'>
           <Link href={''}>
