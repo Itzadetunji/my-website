@@ -149,9 +149,6 @@ const about: NextPage = () => {
               <TechStack/>
             </div>
           </div>
-          <div className='mt-[100px] lg:hidden'>
-            <Social_Links/>
-          </div>
         </div>
       </div>
       <div className='lg:absolute lg:top-[200px] xl:top-[150px] right-[50px]'>
@@ -182,6 +179,9 @@ const about: NextPage = () => {
           </div>
           <div className='border-l-white border-l-[1px] h-[70px] lg:ml-[30px]'/>
         </div>
+      </div>
+      <div className='mt-[100px] lg:hidden'>
+        <Social_Links/>
       </div>
         {/* <ParticleComponent/> */}
       <Footer/>
