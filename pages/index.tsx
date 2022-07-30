@@ -13,9 +13,9 @@ import Link from 'next/link'
 const index : NextPage = () => {
   return (
     <>
-      {/* <Navbar/> */}
-      <div className='lg:mx-[60px] z-50'>
-        <div className="mt-[165px] mx-auto justify-center">
+      <Navbar/>
+      <div className='mt-[90px] lg:mx-[60px] z-50'>
+        <div className="mx-auto justify-center">
           <div className='mx-[35px] lg:mx-0'>
             <div className='lg:hidden'>
               <p className='text-white font-[600] text-[55px]'>I'm</p>
@@ -97,9 +97,9 @@ const index : NextPage = () => {
       <div className='lg:hidden'>
         <Footer/>
       </div>
-      <div className='absolute z-0'>
+      {/* <div className='absolute z-0'>
         <ParticleComponent/>
-      </div>
+      </div> */}
     </>
   )
 };
