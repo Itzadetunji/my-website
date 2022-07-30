@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import styles from '../styles/Home.module.css'
 import Footer from './components/Footer';
-import Navbar from './components/Navbar'
+import Navbar from './components/Navabar'
 import ParticleComponent from './components/ParticleComponent'
 import Social_Links from './components/SocialLinks'
 import Button from './components/Button'

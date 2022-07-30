@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { useEffect } from 'react'
 import styles from '../styles/Home.module.css'
 import Footer from './components/Footer';
-import Navbar from './components/Navbar'
+import Navbar from './components/Navabar'
 import ParticleComponent from './components/ParticleComponent'
 import Social_Links from './components/SocialLinks'
 import Button from './components/Button'
@@ -14,7 +14,7 @@ const index : NextPage = () => {
   return (
     <>
       {/* <Navbar/> */}
-      <div className='lg:mx-[50px] lg:mx-[60px] z-50'>
+      <div className='lg:mx-[60px] z-50'>
         <div className="mt-[165px] mx-auto justify-center">
           <div className='mx-[35px] lg:mx-0'>
             <div className='lg:hidden'>
