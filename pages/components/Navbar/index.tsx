@@ -1,10 +1,11 @@
 import { NextPage } from 'next'
+import Link from 'next/link'
 import React from 'react'
 
 const index: NextPage = () => {
   return (
     <nav className='dark-blue w-full h-[109px]'>
-      <div className='flex flex-row mx-[30px] py-[20px] justify-between'>
+      <div className='flex flex-row mx-[60px] py-[20px] justify-between'>
         <div>
           <img src="/icons/logo.svg" alt="" />
         </div>
@@ -15,8 +16,12 @@ const index: NextPage = () => {
           <p className='hover:text-[#5CBEFF] transition-all duration-300'>Contact</p>
         </div>
         <div className='flex  my-[15px]'>
-          <img src="/icons/social-icons/github.svg" className='w-[34px] h-[34px] mr-[30px]' alt="" />
-          <img src="/icons/social-icons/linkedin.svg" className='w-[34px] h-[34px]' alt="" />
+          <Link href={''}>
+            <img src="/icons/social-icons/github.svg" className='w-[34px] h-[34px] mr-[30px]' alt="" />
+          </Link>
+          <Link href={''}>
+            <img src="/icons/social-icons/linkedin.svg" className='w-[34px] h-[34px]' alt="" />
+          </Link>
         </div>
       </div>
     </nav>
