@@ -48,8 +48,8 @@ const contact : NextPage = () => {
 	};
   return (
     <>
-      {/* <Navbar/> */}
-      <div className="mt-[165px] mx-auto justify-center">
+      <Navbar/>
+      <div className="mt-[60px] mx-auto justify-center">
         <div className=''>
         	<div className='mx-[30px] md:mx-[60px] lg:mx-[60px]'>
             <p className='text-white font-[600] text-[40px]'>Let's chat</p>

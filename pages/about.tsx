@@ -42,8 +42,8 @@ const about: NextPage = () => {
 
   return (
     <>
-      {/* <Navbar/> */}
-      <div className="mt-[165px] mx-[30px]">
+      <Navbar/>
+      <div className="mt-[80px] mx-[30px]">
         <div className='xs:mx-[35px] lg:mx-[60px]'>
           <div className='text-white mt-[73px] xl:-mt-[20px] lg:-ml-[100px] xl:-ml-[170px] lg:flex lg:flex-row md:items-end lg:space-x-[100px] xl:space-x-[170px] 2xl:space-x-[280px]'>
             <p className='text-white font-[600] text-[55px] leading-[60px] lg:hidden'>About Me</p>

@@ -7,7 +7,7 @@ import NavItem from './NavItem'
 const index: NextPage = () => {
   const router = useRouter().pathname;
   return (
-    <nav className='dark-blue w-full h-[109px] sticky top-0'>
+    <nav className='dark-blue w-full h-[109px] sticky top-0 z-50'>
       <div className='flex flex-row ml-[60px] mr-[75px] py-[20px] justify-between'>
         <div>
           <img src="/icons/logo.svg" alt="" />
@@ -15,7 +15,7 @@ const index: NextPage = () => {
         <div className='flex text-white text-[21px] my-[20px] select-none'>
           <a href={'/'}>
             <div className='pr-[50px] cursor-pointer'>
-              <NavItem active={!router.includes('about') || !router.includes('contact') || !router.includes('portfolio') ? true : false} title={'Home'} />
+              <NavItem active={router.includes('about') || router.includes('contact') || router.includes('portfolio') ? false : true} title={'Home'} />
             </div>
           </a>
           <a href={'/about'}>

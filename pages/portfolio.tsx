@@ -17,8 +17,8 @@ const portfolio : NextPage = () => {
     <>
     {/* <ParticleComponent/> */}
     <div className=''>
-    {/* <Navbar/> */}
-      <div className='mx-auto'>
+    <Navbar/>
+      <div className='mx-auto mt-[80px]'>
         <div className="mt-[165px] mx-[30px] lg:mx-[60px] xl:mx-[90px]">
           <div>
             <p className='text-white font-[600] text-[40px] lg:text-[50px]'>My Portfolio</p>
