@@ -13,13 +13,13 @@ const index: NextPage = () => {
           <img src="/icons/logo.svg" alt="" />
         </div>
         <div className='flex text-white text-[21px] my-[20px]'>
-          <div>
-            <NavItem active={!router.includes('about') || router.includes('contact') || router.includes('portfolio') || router.includes('contact') ? true : false} title={'Home'} />
+          <div className='pr-[50px]'>
+            <NavItem active={!router.includes('about') || !router.includes('contact') || !router.includes('portfolio') ? true : false} title={'Home'} />
           </div>
-          <div>
+          <div className='pr-[50px]'>
             <NavItem active={router.includes('about') && true} title={'About'} />
           </div>
-          <div>
+          <div className='pr-[50px]'>
             <NavItem active={router.includes('portfolio') && true} title={'Portfolio'} />
           </div>
           <div>

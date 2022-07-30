@@ -10,7 +10,7 @@ interface NavProps {
 const index:React.FC<NavProps> = ({active, title}) => {
   return (
     <Link href={''}>
-      <p className={`pr-[50px] ${active && 'text-[#5CBEFF]'} hover:text-[#5CBEFF] transition-all duration-300`}>
+      <p className={`${active && 'text-[#5CBEFF]'} hover:text-[#5CBEFF] transition-all duration-300`}>
         {title}
       </p>
     </Link>
