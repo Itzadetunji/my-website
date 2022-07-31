@@ -10,7 +10,7 @@ const index: NextPage = () => {
     <nav className='dark-blue w-full h-[109px] sticky top-0 z-50'>
       <div className='flex flex-row ml-[60px] mr-[75px] py-[20px] justify-between'>
         <div>
-          <img src="/icons/logo.svg" alt="" />
+          <img src="/icons/repeated.svg" className='w-[65px] h-[65px]' alt="" />
         </div>
         <div className='hidden lg:flex text-white text-[21px] my-[20px] select-none'>
           <a href={'/'}>
