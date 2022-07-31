@@ -10,6 +10,7 @@ import TestimonialCard from './components/TestimonialCard'
 import TechStack from './components/TechStack'
 import Social_Links from './components/SocialLinks'
 import Link from 'next/link'
+import LargeSocialLinks from './components/LargeSocialLinks'
 
 const about: NextPage = () => {
   const TestimonialCardContents = [
@@ -41,8 +42,8 @@ const about: NextPage = () => {
 
   return (
     <>
-      {/* <Navbar/> */}
-      <div className="mt-[165px] mx-[30px]">
+      <Navbar/>
+      <div className="mt-[80px] mx-[30px]">
         <div className='xs:mx-[35px] lg:mx-[60px]'>
           <div className='text-white mt-[73px] xl:-mt-[20px] lg:-ml-[100px] xl:-ml-[170px] lg:flex lg:flex-row md:items-end lg:space-x-[100px] xl:space-x-[170px] 2xl:space-x-[280px]'>
             <p className='text-white font-[600] text-[55px] leading-[60px] lg:hidden'>About Me</p>
@@ -149,9 +150,6 @@ const about: NextPage = () => {
               <TechStack/>
             </div>
           </div>
-          <div className='mt-[100px] lg:hidden'>
-            <Social_Links/>
-          </div>
         </div>
       </div>
       <div className='lg:absolute lg:top-[200px] xl:top-[150px] right-[50px]'>
@@ -182,6 +180,10 @@ const about: NextPage = () => {
           </div>
           <div className='border-l-white border-l-[1px] h-[70px] lg:ml-[30px]'/>
         </div>
+      </div>
+      <LargeSocialLinks/>
+      <div className='mt-[100px] lg:hidden'>
+        <Social_Links/>
       </div>
         {/* <ParticleComponent/> */}
       <Footer/>

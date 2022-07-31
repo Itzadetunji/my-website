@@ -25,7 +25,7 @@ export default async function handler(req, res) {
 		subject: `${subject} — Contact Form: adetunjiadeyinka.com`,
 		text: message,
 		html: `
-			<h1>New message from ${email}</h1>
+			<h1>You have a New message from ${email}</h1>
 			<h2>Name:</h2>
 			<p>${name}</p>
 			<h2>Subject:</h2>

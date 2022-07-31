@@ -11,11 +11,14 @@ import Button from './components/Button'
 import Link from 'next/link'
 
 const index : NextPage = () => {
+  useEffect(() => {
+    console.log("I Only run once (When the component gets mounted)")
+  }, []);
   return (
     <>
-      {/* <Navbar/> */}
-      <div className='lg:mx-[50px] lg:mx-[60px] z-50'>
-        <div className="mt-[165px] mx-auto justify-center">
+      <Navbar/>
+      <div className='mt-[80px] lg:mx-[60px] z-50'>
+        <div className="mx-auto justify-center">
           <div className='mx-[35px] lg:mx-0'>
             <div className='lg:hidden'>
               <p className='text-white font-[600] text-[55px]'>I'm</p>
@@ -30,10 +33,10 @@ const index : NextPage = () => {
                 <hr className='light-blue border-[3px] w-[224px] sm:w-[204px] lg:w-[140px] mt-[35px] lg:mt-[20px] hidden lg:block'/>
                 <div className='lg:w-[360px] xl:w-[450px] text-center lg:text-left mx-auto font-light text-[25px] lg:text-[16px] xl:text-[20px] xl:leading-[30px] 2xl:leading-[33px]'>
                   <p className='mt-[20px] lg:mt-[40px]'>
-                  I am a fullstack web developer based in Lagos State, Nigeria. I started my coding journey in 2017 and now I have over 4+ years of experience. 
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius porro deserunt quod, totam fugit architecto vero quae, explicabo deleniti minima, ratione iste repellendus officia. Nisi, 
                   </p>
-                  <p className='mt-[20px]'>I love finding new ways to solve existing problems ;)I love finding new ways to solve existing problems ;)</p>
-                  <p className='mt-[20px]'>I also have this excessive hunger to continue learning new things everyday 😅I also have this excessive hunger to continue learning new things everyday 😅 </p>
+                  <p className='mt-[20px]'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi ducimus nam aliquam rem repudiandae, ullam iste deserunt praesentium repellat eos?</p>
+                  <p className='mt-[20px]'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus iste ipsa eaque ipsum quasi consectetur blanditiis! Amet? </p>
                   <div className='hidden lg:block'>
                     <div className='w-fit px-[20px] py-[13px] grey rounded-full flex space-x-3 hovering-arrow mt-[30px]'>
                       <p className='text-[16px]'>Know more</p>
@@ -97,7 +100,7 @@ const index : NextPage = () => {
       <div className='lg:hidden'>
         <Footer/>
       </div>
-      <div className='absolute z-0'>
+      <div>
         <ParticleComponent/>
       </div>
     </>
