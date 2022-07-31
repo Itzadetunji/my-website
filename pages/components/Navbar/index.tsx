@@ -23,7 +23,7 @@ const index: NextPage = () => {
             <img src="/icons/repeated.svg" className='w-[65px] h-[65px]' alt="" />
           </div>
         </Link>
-        <div className='hidden lg:flex text-white text-[21px] my-[20px] select-none'>
+        <div className='hidden lg:flex text-white text-[21px] my-[20px]'>
           <a href={'/'}>
             <div className='pr-[50px] cursor-pointer'>
               <NavItem active={router.includes('about') || router.includes('contact') || router.includes('portfolio') ? false : true} title={'Home'} />
@@ -34,16 +34,16 @@ const index: NextPage = () => {
               <NavItem active={router.includes('about') && true} title={'About'} />
             </div>
           </a>
-          <a href={'/portfolio'}>
+          <Link href={'/portfolio'}>
             <div className='pr-[50px] cursor-pointer'>
               <NavItem active={router.includes('portfolio') && true} title={'Portfolio'} />
             </div>
-          </a>
-          <a href={'/contact'}>
+          </Link>
+          <Link href={'/contact'}>
             <div className='cursor-pointer'>
               <NavItem active={router.includes('contact') && true} title={'Contact'} />
             </div>
-          </a>
+          </Link>
         </div>
         <div className='hidden lg:flex my-[15px]'>
           <Link href={'https://github.com/itzadetunji'}>
