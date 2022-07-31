@@ -69,18 +69,18 @@ const index: NextPage = () => {
             </div>
            </Link> 
           <Link href={'/about'}>
-            <div className='border-r-[#0A141D] border-[#5CBEFF] cursor-pointer'>
-              <p className='pr-[20px] py-[15px] text-white text-[22px] float-right'>About</p>
+            <div className='border-r-[#0A141D] border-r-[6px] hover:border-r-[#5CBEFF] border-[#5CBEFF] transition-all duration-300 cursor-pointer'>
+              <p className='pr-[20px] py-[15px] text-white hover:text-[#5CBEFF] transition-all duration-300 text-[22px] float-right'>About</p>
             </div>
            </Link> 
           <Link href={'/portfolio'}>
-            <div className='border-r-[#0A141D] border-[#5CBEFF] cursor-pointer'>
-              <p className='pr-[20px] py-[15px] text-white text-[22px] float-right'>Portfolio</p>
+            <div className='border-r-[#0A141D] border-r-[6px] hover:border-r-[#5CBEFF] border-[#5CBEFF] transition-all duration-300 cursor-pointer'>
+              <p className='pr-[20px] py-[15px] text-white hover:text-[#5CBEFF] transition-all duration-300 text-[22px] float-right'>Portfolio</p>
             </div>
            </Link> 
           <Link href={'/contact'}>
-            <div className='border-r-[#0A141D] border-[#5CBEFF] cursor-pointer'>
-              <p className='pr-[20px] py-[15px] text-white text-[22px] float-right'>Contact</p>
+            <div className='border-r-[#0A141D] border-r-[6px] hover:border-r-[#5CBEFF] border-[#5CBEFF] transition-all duration-300 cursor-pointer'>
+              <p className='pr-[20px] py-[15px] text-white hover:text-[#5CBEFF] transition-all duration-300 text-[22px] float-right'>Contact</p>
             </div>
            </Link> 
         </div>
