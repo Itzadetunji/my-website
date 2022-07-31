@@ -55,7 +55,8 @@ const index: NextPage = () => {
           </Link>
         </div>
         <div className={`py-[8px] px-[10px] flex lg:hidden hover:bg-[grey] rounded-[10px] ${activeHam && 'bg-[#323C42] border-[3px] border-[#363C42]'}`}>
-          <img src="/icons/hamburger.svg"
+          <img src="/icons/hamburger-repeated.svg"
+            className='h-[49px] w-[59px]'
             onClick={() => setActiveHam(!activeHam)}
             alt="" 
           />
