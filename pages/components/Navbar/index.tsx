@@ -62,7 +62,7 @@ const index: NextPage = () => {
           />
         </div>
       </div>
-      <div className='absolute lg:hidden top-[100px] pr-[60px] h-screen w-full dark-blue'>
+      <div className={`${activeHam ? 'absolute' : 'hidden'} lg:hidden top-[100px] pr-[60px] h-screen w-full dark-blue`}>
         <div className='flex flex-col space-y-[50px] mt-[40px]'>
           <Link href={'/'}>
             <div className='border-r-[6px] border-[#5CBEFF] cursor-pointer'>
@@ -75,13 +75,13 @@ const index: NextPage = () => {
             </div>
            </Link> 
           <Link href={'/portfolio'}>
-            <div className='border-r-[#0A141D] border-r-[6px] hover:border-r-[#5CBEFF] border-[#5CBEFF] transition-all duration-300 cursor-pointer'>
-              <p className='pr-[20px] py-[15px] text-white hover:text-[#5CBEFF] transition-all duration-300 text-[22px] float-right'>Portfolio</p>
+            <div className={`border-r-[6px] ${router.includes('portfolio') ? 'border-r-[#5CBEFF] text-[#5CBEFF]' : 'text-white border-r-[#0A141D]'} hover:border-r-[#5CBEFF] transition-all duration-300 cursor-pointer`}>
+              <p className='pr-[20px] py-[15px] hover:text-[#5CBEFF] transition-all duration-300 text-[22px] float-right'>Portfolio</p>
             </div>
            </Link> 
           <Link href={'/contact'}>
-            <div className='border-r-[#0A141D] border-r-[6px] hover:border-r-[#5CBEFF] border-[#5CBEFF] transition-all duration-300 cursor-pointer'>
-              <p className='pr-[20px] py-[15px] text-white hover:text-[#5CBEFF] transition-all duration-300 text-[22px] float-right'>Contact</p>
+            <div className={`border-r-[6px] ${router.includes('contact') ? 'border-r-[#5CBEFF] text-[#5CBEFF]' : 'text-white border-r-[#0A141D]'} hover:border-r-[#5CBEFF] transition-all duration-300 cursor-pointer`}>
+              <p className='pr-[20px] py-[15px] hover:text-[#5CBEFF] transition-all duration-300 text-[22px] float-right'>Contact</p>
             </div>
            </Link> 
         </div>
