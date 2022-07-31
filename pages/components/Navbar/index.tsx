@@ -3,6 +3,7 @@ import { useRouter } from "next/router"
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import NavItem from './NavItem'
+import ParticleComponent from '../ParticleComponent'
 
 const index: NextPage = () => {
   const router = useRouter().pathname;
@@ -15,11 +16,13 @@ const index: NextPage = () => {
     }
   }, [activeHam]);
   return (
-    <nav className='dark-blue w-full h-[109px] lg:sticky top-0 z-50 relative'>
+    <nav className={`dark-blue w-full h-[109px] lg:sticky top-0 z-50 sticky ${activeHam && 'relative'}`}>
       <div className='flex flex-row ml-[60px] lg:ml-[60px] mr-[60px] lg:mr-[75px] py-[20px] justify-between'>
-        <div>
-          <img src="/icons/repeated.svg" className='w-[65px] h-[65px]' alt="" />
-        </div>
+        <Link href={'/'}>
+          <div className='cursor-pointer'>
+            <img src="/icons/repeated.svg" className='w-[65px] h-[65px]' alt="" />
+          </div>
+        </Link>
         <div className='hidden lg:flex text-white text-[21px] my-[20px] select-none'>
           <a href={'/'}>
             <div className='pr-[50px] cursor-pointer'>
@@ -65,13 +68,13 @@ const index: NextPage = () => {
       <div className={`${activeHam ? 'absolute' : 'hidden'} lg:hidden top-[100px] pr-[60px] h-screen w-full dark-blue`}>
         <div className='flex flex-col space-y-[50px] mt-[40px]'>
           <Link href={'/'}>
-            <div className='border-r-[6px] border-[#5CBEFF] cursor-pointer'>
-              <p className='pr-[20px] py-[15px] text-white text-[22px] text-[#5CBEFF] float-right'>Home</p>
+            <div className={`border-r-[6px] ${router.includes('about') || router.includes('contact') || router.includes('portfolio') ? 'text-white border-r-[#0A141D]' : 'border-r-[#5CBEFF] text-[#5CBEFF]'} hover:border-r-[#5CBEFF] transition-all duration-300 cursor-pointer`}>
+              <p className='pr-[20px] py-[15px] text-[22px] hover:text-[#5CBEFF] float-right'>Home</p>
             </div>
            </Link> 
           <Link href={'/about'}>
-            <div className='border-r-[#0A141D] border-r-[6px] hover:border-r-[#5CBEFF] border-[#5CBEFF] transition-all duration-300 cursor-pointer'>
-              <p className='pr-[20px] py-[15px] text-white hover:text-[#5CBEFF] transition-all duration-300 text-[22px] float-right'>About</p>
+            <div className={`border-r-[6px] ${router.includes('about') ? 'border-r-[#5CBEFF] text-[#5CBEFF]' : 'text-white border-r-[#0A141D]'} hover:border-r-[#5CBEFF] transition-all duration-300 cursor-pointer`}>
+              <p className='pr-[20px] py-[15px] hover:text-[#5CBEFF] transition-all duration-300 text-[22px] float-right'>About</p>
             </div>
            </Link> 
           <Link href={'/portfolio'}>
