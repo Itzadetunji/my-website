@@ -53,7 +53,7 @@ const index: NextPage = () => {
                 </Link>
                 </div>                  
               </div>
-              <div className='h-0 my-[10px] w-[70px] xl:my-[13px] line-flipped'>
+              <div className='h-0 my-[10px] w-[70px] xl:my-[13px] line-reversed'>
                 <div className='border animate-line'/>
               </div>
             </div>

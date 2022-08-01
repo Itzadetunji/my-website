@@ -5,7 +5,9 @@ import React from 'react'
 const Social_Links: NextPage = () => {
   return (
     <div className="flex mt-5 space-x-[30px] mx-auto justify-center">
-      <hr className='border w-[70px] my-[15px]'/>
+      <div className='w-[70px] my-[15px]'>
+        <div className='border animate-line'/>
+      </div>
       <div className="mx-auto flex space-x-[40px]">
         <Link href="https://www.facebook.com/adetunji.adeyinka.1238" passHref>
           <a target="_blank" rel="noopener noreferrer">
@@ -23,8 +25,8 @@ const Social_Links: NextPage = () => {
           </a>
         </Link>
       </div>
-      <div className='w-[70px] my-[15px]'>
-        <hr className='border animate-line'/>
+      <div className='w-[70px] my-[15px] line-reversed'>
+        <div className='border animate-line'/>
       </div>
     </div>
   )

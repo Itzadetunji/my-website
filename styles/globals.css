@@ -168,10 +168,10 @@ div:hover + .arrow
   }
 }
 
-.line-reversed{
+.line-flipped{
   transform: scaleY(-1);
 }
 
-.line-flipped{
+.line-reversed{
   transform: scaleX(-1);
 }

@@ -35,7 +35,7 @@ const index:NextPage = () => {
           </div>                  
         </div>
         <div className='h-[70px] line-reversed'>
-          <div className='border-l-white border-l-[1px] h-full lg:ml-[30px] animate-social-line-reversed'/>
+          <div className='border-l-white border-l-[1px] h-full lg:ml-[30px] animate-social-line-flipped'/>
         </div>
       </div>
     </div>
