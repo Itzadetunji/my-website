@@ -23,14 +23,18 @@ const index : NextPage = () => {
             <div className='lg:hidden'>
               <p className='text-white font-[600] text-[55px]'>I'm</p>
               <p className='text-white font-[600] text-[55px] leading-[60px]'>Adetunji Adeyinka</p>
-              <hr className='light-blue border-[3px] w-[224px] sm:w-[204px] mt-[25px] animate-line-sm'/>
+              <div className='w-[224px] sm:w-[204px]'>
+                <hr className='light-blue border-[3px] w-full sm:w-full mt-[25px] animate-line-sm'/>
+              </div>
             </div>
             <div className='text-white mt-[70px] xl:-mt-[20px] lg:flex lg:flex-row md:items-end lg:space-x-[100px] xl:space-x-[170px] 2xl:space-x-[280px]'>
               <img src="./images/me.jpeg" alt="" className='w-[363px] xl:w-[400px] h-[528px] xl:h-[582px] mx-auto lg:mx-[0px]'/>
               <div className='mt-[100px] lg:mt-[0px] text-center lg:text-left'>
                 <p className='text-white font-[600] text-[55px] lg:text-[35px] hidden lg:block'>I'm</p>
                 <p className='text-white font-[600] text-[55px] lg:text-[37px] leading-[60px] hidden lg:block'>Adetunji Adeyinka</p>
-                <hr className='light-blue border-[3px] w-[224px] sm:w-[204px] lg:w-[140px] mt-[35px] lg:mt-[20px] hidden lg:block animate-line'/>
+                <div className='w-[224px] sm:w-[204px] lg:w-[140px]'>
+                  <hr className='light-blue border-[3px] mt-[35px] lg:mt-[20px] hidden lg:block animate-line'/>
+                </div>
                 <div className='lg:w-[360px] xl:w-[450px] text-center lg:text-left mx-auto font-light text-[25px] lg:text-[16px] xl:text-[20px] xl:leading-[30px] 2xl:leading-[33px]'>
                   <p className='mt-[20px] lg:mt-[40px]'>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius porro deserunt quod, totam fugit architecto vero quae, explicabo deleniti minima, ratione iste repellendus officia. Nisi, 

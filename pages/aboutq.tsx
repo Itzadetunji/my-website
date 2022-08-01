@@ -44,40 +44,26 @@ const about: NextPage = () => {
     <>
       <Navbar/>
       <div className="mt-[50px] mx-[30px]">
-      <div className="mx-auto justify-center">
-          <div className='mx-[35px] lg:mx-0'>
-            <div className='lg:hidden'>
-              <p className='text-white font-[600] text-[55px] leading-[60px]'>About Me</p>
-              <div className='w-[224px] sm:w-[204px]'>
-                <hr className='light-blue border-[3px] w-full sm:w-full mt-[25px] animate-line-sm'/>
-              </div>
-            </div>
-            <div className='text-white mt-[70px] xl:-mt-[20px] lg:flex lg:flex-row md:items-end lg:space-x-[100px] xl:space-x-[170px] 2xl:space-x-[280px]'>
-              <img src="./images/me.jpeg" alt="" className='w-[363px] xl:w-[400px] h-[528px] xl:h-[582px] mx-auto lg:mx-[0px]'/>
-              <div className='mt-[100px] lg:mt-[0px] text-center lg:text-left'>
-                <p className='text-white font-[600] text-[55px] lg:text-[37px] leading-[60px] hidden lg:block'>About Me</p>
-                <div className='w-[100px] sm:w-[100px] lg:w-[100px]'>
-                  <hr className='light-blue border-[3px] mt-[35px] lg:mt-[20px] hidden lg:block animate-line'/>
-                </div>
-                <div className='lg:w-[360px] xl:w-[450px] text-center lg:text-left mx-auto font-light text-[25px] lg:text-[16px] xl:text-[20px] xl:leading-[30px] 2xl:leading-[33px]'>
-                  <p className='mt-[20px] lg:mt-[40px]'>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius porro deserunt quod, totam fugit architecto vero quae, explicabo deleniti minima, ratione iste repellendus officia. Nisi, 
-                  </p>
-                  <p className='mt-[15px]'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi ducimus nam aliquam rem repudiandae, ullam iste deserunt praesentium repellat eos?</p>
-                  <p className='mt-[15px]'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus iste ipsa eaque ipsum quasi consectetur blanditiis! Amet? </p>
-                  <div className='hidden lg:block mt-[20px]'>
-                    {/* <div className='w-[200px] h-[72.3px] grey rounded-full flex space-x-3 hovering-arrow mt-[30px]'>
-                      <p className='text-[16px]'>Know more</p>
-                      <img src="./icons/Arrow.svg" alt="" className='arrow animate-arrow'/>
-                    </div> */}
-                    <a href='/about'>
-                      <div className={`rounded-full text-center items-center justify-center grey w-[180px] h-[60.07px] custom-shadow duration-500 ease-in delay-[10ms] flex space-x-[8px] animate-arrow-div`}>
-                        <p className='text-[18px] text-white'>Know More</p>
-                        <img src="./icons/Arrow.svg" alt="" className='w-[30px] animate-arrow'/>
-                      </div>
-                    </a>
+        <div className='xs:mx-[35px] lg:mx-[60px]'>
+          <div className='text-white mt-[73px] xl:-mt-[20px] lg:-ml-[100px] xl:-ml-[170px] lg:flex lg:flex-row md:items-end lg:space-x-[100px] xl:space-x-[170px] 2xl:space-x-[280px]'>
+            <p className='text-white font-[600] text-[55px] leading-[60px] lg:hidden'>About Me</p>
+            <hr className='light-blue border-[3px] w-[150px] mt-[25px] mb-[70px] lg:hidden'/>
+            <img src="./images/me.jpeg" alt="" className='w-[363px] xl:w-[400px] h-[528px] xl:h-[582px] mx-auto lg:mx-[0px]'/>
+            <div className='mt-[100px] lg:mt-[0px] text-center lg:text-left'>
+              <p className='text-white font-[600] text-[55px] lg:text-[37px] leading-[60px] hidden lg:block'>About Me</p>
+              <hr className='light-blue border-[3px] w-[224px] sm:w-[204px] lg:w-[140px] mt-[35px] lg:mt-[20px] hidden lg:block'/>
+              <div className='lg:w-[360px] xl:w-[450px] text-center lg:text-left mx-auto font-light text-[25px] lg:text-[16px] xl:text-[20px] xl:leading-[30px] 2xl:leading-[33px]'>
+                <p className='mt-[20px] lg:mt-[40px]'>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius porro deserunt quod, totam fugit architecto vero quae, explicabo deleniti minima, ratione iste repellendus officia. Nisi, 
+                </p>
+                <p className='mt-[15px]'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi ducimus nam aliquam rem repudiandae, ullam iste deserunt praesentium repellat eos?</p>
+                <p className='mt-[15px]'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus iste ipsa eaque ipsum quasi consectetur blanditiis! Amet? </p>
+                <a href='https://www.linkedin.com/in/adetunji-adeyinka-8aa5311b9/' target='_blank'>
+                  <div className={`rounded-full text-center items-center justify-center grey w-[180px] h-[60.07px] custom-shadow duration-500 ease-in delay-[10ms] flex space-x-[8px] mt-[90px] animate-arrow-div`}>
+                    <p className='text-[18px] text-white'>GET CV</p>
+                    <img src="./icons/Arrow.svg" alt="" className='w-[30px] animate-arrow'/>
                   </div>
-                </div>
+                </a>
               </div>
             </div>
           </div>
