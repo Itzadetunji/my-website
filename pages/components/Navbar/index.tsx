@@ -15,7 +15,7 @@ const index: NextPage = () => {
     }
   }, [activeHam]);
   return (
-    <nav className={`w-full h-[109px] lg:sticky top-0 z-50 sticky ${activeHam && 'relative'}`}>
+    <nav className={`dark-blue w-full h-[109px] lg:sticky top-0 z-50 sticky ${activeHam && 'relative'}`}>
       <div className='flex flex-row ml-[60px] lg:ml-[60px] mr-[60px] lg:mr-[75px] py-[20px] justify-between'>
         <Link href={'/'}>
           <div className='cursor-pointer'>
