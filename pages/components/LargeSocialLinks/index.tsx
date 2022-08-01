@@ -23,9 +23,9 @@ const index: NextPage = () => {
           <p className='w-[300px] xl:w-[495px] text-white lg:text-[22px] font-[400]'>Hi 👋🏿, Adetunji here. Lets get in touch sometime to work on something great 😅</p>
           <div className='mt-[60px]'>
             <a href='/contact'>
-              <div className={`rounded-full text-center items-center justify-center grey w-[200px] h-[72.3px] custom-shadow duration-500 ease-in delay-[10ms] flex space-x-[8px]`}>
-                <p className='text-[19px] text-white'>Legoooo</p>
-                <img src="./icons/Arrow.svg" alt="" className='w-[30px]'/>
+              <div className={`rounded-full text-center items-center justify-center grey w-[180px] h-[60.07px] custom-shadow duration-500 ease-in delay-[10ms] flex space-x-[8px] animated-arrow-div`}>
+                <p className='text-[18px] text-white'>Legooo</p>
+                <img src="./icons/Arrow.svg" alt="" className='w-[30px] animate-arrow'/>
               </div>
             </a>
           </div>
