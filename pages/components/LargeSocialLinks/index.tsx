@@ -40,7 +40,7 @@ const index: NextPage = () => {
                 <Link href="https://www.instagram.com/itzadetunji/" passHref>
                   <a target="_blank" rel="noopener noreferrer" className=''>
                     <img src="icons/social-icons/instagram.svg" className='w-[31.81px] h-[31.81px]' alt=""/>
-                  </a>
+              
                 </Link>
                 </div>
                 <div className='w-14 h-14 flex hoverAnimation items-center justify-center'>
