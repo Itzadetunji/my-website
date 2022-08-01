@@ -43,7 +43,7 @@ const about: NextPage = () => {
   return (
     <>
       <Navbar/>
-      <div className="mt-[80px] mx-[30px]">
+      <div className="mt-[50px] mx-[30px]">
         <div className='xs:mx-[35px] lg:mx-[60px]'>
           <div className='text-white mt-[73px] xl:-mt-[20px] lg:-ml-[100px] xl:-ml-[170px] lg:flex lg:flex-row md:items-end lg:space-x-[100px] xl:space-x-[170px] 2xl:space-x-[280px]'>
             <p className='text-white font-[600] text-[55px] leading-[60px] lg:hidden'>About Me</p>
@@ -54,16 +54,16 @@ const about: NextPage = () => {
               <hr className='light-blue border-[3px] w-[224px] sm:w-[204px] lg:w-[140px] mt-[35px] lg:mt-[20px] hidden lg:block'/>
               <div className='lg:w-[360px] xl:w-[450px] text-center lg:text-left mx-auto font-light text-[25px] lg:text-[16px] xl:text-[20px] xl:leading-[30px] 2xl:leading-[33px]'>
                 <p className='mt-[20px] lg:mt-[40px]'>
-                I am a fullstack web developer based in Lagos State, Nigeria. I started my coding journey in 2017 and now I have over 4+ years of experience. 
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius porro deserunt quod, totam fugit architecto vero quae, explicabo deleniti minima, ratione iste repellendus officia. Nisi, 
                 </p>
-                <p className='mt-[20px]'>I love finding new ways to solve existing problems ;)I love finding new ways to solve existing problems ;)</p>
-                <p className='mt-[20px]'>I also have this excessive hunger to continue learning new things everyday 😅I also have this excessive hunger to continue learning new things everyday 😅 </p>
-                <div className='hidden lg:block'>
-                  <div className='w-fit px-[20px] py-[13px] grey rounded-full flex space-x-3 hovering-arrow mt-[30px]'>
-                    <p className='text-[16px]'>Know more</p>
-                    <img src="./icons/Arrow.svg" alt="" className='arrow'/>
+                <p className='mt-[15px]'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi ducimus nam aliquam rem repudiandae, ullam iste deserunt praesentium repellat eos?</p>
+                <p className='mt-[15px]'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus iste ipsa eaque ipsum quasi consectetur blanditiis! Amet? </p>
+                <a href='https://www.linkedin.com/in/adetunji-adeyinka-8aa5311b9/' target='_blank'>
+                  <div className={`rounded-full text-center items-center justify-center grey w-[180px] h-[60.07px] custom-shadow duration-500 ease-in delay-[10ms] flex space-x-[8px] mt-[90px] animate-arrow-div`}>
+                    <p className='text-[18px] text-white'>GET CV</p>
+                    <img src="./icons/Arrow.svg" alt="" className='w-[30px] animate-arrow'/>
                   </div>
-                </div>
+                </a>
               </div>
             </div>
           </div>

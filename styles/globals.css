@@ -114,3 +114,35 @@ div:hover + .arrow
 {
   width: 100px;
 }
+
+.animate-arrow {
+  position: relative;
+  animation: arrow 2s ease-in-out infinite;
+}
+
+.animate-arrow-div:hover .animate-arrow {
+  position: relative;
+  animation: arrowOnHover 1s ease-in-out infinite;
+}
+
+@keyframes arrow {
+  0%,
+  100% {
+    left: 0;
+  }
+
+  50% {
+    left: 8px;
+  }
+}
+
+@keyframes arrowOnHover {
+  0%,
+  100% {
+    left: 0;
+  }
+
+  50% {
+    left: 8px;
+  }
+}
