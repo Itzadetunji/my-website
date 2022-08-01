@@ -25,7 +25,7 @@ const index : NextPage = () => {
               <p className='text-white font-[600] text-[55px]'>I'm</p>
               <p className='text-white font-[600] text-[55px] leading-[60px]'>Adetunji Adeyinka</p>
               <div className='w-[224px] sm:w-[204px]'>
-                <hr className='light-blue border-[3px] w-full sm:w-full mt-[25px] animate-line-sm'/>
+                <hr className='light-blue border-[3px] w-full sm:w-full mt-[25px] animate-line'/>
               </div>
             </div>
             <div className='text-white mt-[70px] xl:-mt-[20px] lg:flex lg:flex-row md:items-end lg:space-x-[100px] xl:space-x-[170px] 2xl:space-x-[280px]'>

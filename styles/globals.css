@@ -152,22 +152,6 @@ div:hover + .arrow
   }
 }
 
-.animate-line-sm{
-  position: relative;
-  animation: animate-line-sm 5s ease-in-out infinite;
-} 
-
-@keyframes animate-line-sm {
-  0%,
-  100% {
-    width: 0;
-  }
-
-  50% {
-    width: 100%;
-  }
-}
-
 .animate-social-line {
   position: relative;
   animation: animate-social-line 5s ease-in-out infinite;

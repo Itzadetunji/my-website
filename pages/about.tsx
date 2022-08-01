@@ -50,7 +50,7 @@ const about: NextPage = () => {
             <div className='lg:hidden'>
               <p className='text-white font-[600] text-[55px] leading-[60px]'>About Me</p>
               <div className='w-[150px] sm:w-[150px]'>
-                <hr className='light-blue border-[3px] mt-[25px] animate-line-sm'/>
+                <hr className='light-blue border-[3px] mt-[25px] animate-line'/>
               </div>
             </div>
             <div className='text-white mt-[70px] xl:-mt-[20px] lg:flex lg:flex-row md:items-end lg:space-x-[100px] xl:space-x-[170px] 2xl:space-x-[280px]'>
@@ -89,7 +89,9 @@ const about: NextPage = () => {
             </div>
             <div className='mt-[100px]'>
               <p className='text-white font-[600] text-[40px]'>My Services</p>
-              <hr className='light-blue border-[3px] w-[55px] mt-[13px]'/>
+              <div className='w-[55px] mt-[20px]'>
+                <hr className='light-blue border-[3px] animate-line'/>
+              </div>
             </div>
             <div className='mt-[79px] mx-auto sm:-mx-[60px] lg:-mx-[20px] xl:-ml-[70px]  md:mt-[86.5px] flex flex-col lg:grid lg:grid-cols-3 space-y-[102px] lg:space-y-0'>
               <ServiceCard 
@@ -112,7 +114,9 @@ const about: NextPage = () => {
           <div className='mx-[30px]'>
             <div className='mt-[100px]'>
               <p className='text-white font-[600] text-[40px]'>My Work Process</p>
-              <hr className='light-blue border-[3px] w-[55px] mt-[13px]'/>
+              <div className='w-[55px] mt-[20px]'>
+                <hr className='light-blue border-[3px] animate-line'/>
+              </div>
             </div>
             <div className='flex flex-col lg:grid lg:grid-cols-3 space-y-[65px] lg:space-y-0 lg:gap-x-[50px] mt-[79px] sm:-mx-[60px] lg:-mx-[20px] xl:-ml-[70px] '>
               <WorkProcess 
@@ -141,7 +145,9 @@ const about: NextPage = () => {
           <div className='mx-[30px]'>
             <div className='mt-[100px]'>
               <p className='text-white font-[600] text-[40px]'>What People Say About Me</p>
-              <hr className='light-blue border-[3px] w-[95px] mt-[13px]'/>
+              <div className='w-[95px] mt-[20px]'>
+                <hr className='light-blue border-[3px] animate-line'/>
+              </div>
             </div>
             <div className='grid grid-rows-1 xl:grid-cols-2 xl:mr-[200px]'>
               <p className='text-white font-[400] text-center xl:text-left leading-[34px] xl:leading-[40px] mt-[37px] xl:mt-[200px] text-[20px] xl:w-[350px]'>Building a great app involves more than just design and programming. I listen to your requirements to ensure you're satisfied. Listen to others' comments.</p>
@@ -167,7 +173,9 @@ const about: NextPage = () => {
           </div>
           <div className='mt-[100px] mx-[30px]'>
             <p className='text-white font-[600] text-[40px]'>My Tech Stack</p>
-            <hr className='light-blue border-[3px] w-[55px] mt-[13px]'/>
+            <div className='w-[55px] mt-[20px]'>
+              <hr className='light-blue border-[3px] animate-line'/>
+            </div>
             <div className='mt-[36px] -mx-[60px]'>
               <TechStack/>
             </div>

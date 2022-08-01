@@ -7,7 +7,9 @@ const index: NextPage = () => {
     <div className='hidden lg:block mt-[120px] mx-[60px]'>
       <div>
         <p className='text-white font-[600] text-[40px]'>Let's Talk</p>
-        <hr className='light-blue border-[3px] w-[55px] mt-[16px]'/>
+        <div className='w-[85px] mt-[20px]'>
+          <hr className='light-blue border-[3px] animate-line'/>
+        </div>
       </div>
       <div className='flex flex-row justify-between mt-[70px]'>
         <div className='flex flex-col'>
