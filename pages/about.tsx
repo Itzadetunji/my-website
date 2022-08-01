@@ -44,12 +44,12 @@ const about: NextPage = () => {
     <>
       <Navbar/>
       <div className="mt-[50px] mx-[30px]">
-      <div className="mx-auto justify-center">
-          <div className='mx-[35px] lg:mx-0'>
-            <div className='lg:hidden'>
+        <div className="mx-auto justify-center">
+          <div className='mx-[35px] lg:mx-[30px]'>
+            <div className='lg:hidden -mx-[30px]'>
               <p className='text-white font-[600] text-[55px] leading-[60px]'>About Me</p>
-              <div className='w-[224px] sm:w-[204px]'>
-                <hr className='light-blue border-[3px] w-full sm:w-full mt-[25px] animate-line-sm'/>
+              <div className='w-[150px] sm:w-[150px]'>
+                <hr className='light-blue border-[3px] mt-[25px] animate-line-sm'/>
               </div>
             </div>
             <div className='text-white mt-[70px] xl:-mt-[20px] lg:flex lg:flex-row md:items-end lg:space-x-[100px] xl:space-x-[170px] 2xl:space-x-[280px]'>
