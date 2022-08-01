@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const index: NextPage = () => {
   return (
-    <div className='hidden lg:block mt-[120px] mx-[90px]'>
+    <div className='hidden lg:block mt-[120px] mx-[60px]'>
       <div>
         <p className='text-white font-[600] text-[40px]'>Let's Talk</p>
         <hr className='light-blue border-[3px] w-[55px] mt-[16px]'/>
