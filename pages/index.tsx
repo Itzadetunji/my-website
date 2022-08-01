@@ -23,14 +23,14 @@ const index : NextPage = () => {
             <div className='lg:hidden'>
               <p className='text-white font-[600] text-[55px]'>I'm</p>
               <p className='text-white font-[600] text-[55px] leading-[60px]'>Adetunji Adeyinka</p>
-              <hr className='light-blue border-[3px] w-[224px] sm:w-[204px] mt-[25px]'/>
+              <hr className='light-blue border-[3px] w-[224px] sm:w-[204px] mt-[25px] animate-line-sm'/>
             </div>
             <div className='text-white mt-[70px] xl:-mt-[20px] lg:flex lg:flex-row md:items-end lg:space-x-[100px] xl:space-x-[170px] 2xl:space-x-[280px]'>
               <img src="./images/me.jpeg" alt="" className='w-[363px] xl:w-[400px] h-[528px] xl:h-[582px] mx-auto lg:mx-[0px]'/>
               <div className='mt-[100px] lg:mt-[0px] text-center lg:text-left'>
                 <p className='text-white font-[600] text-[55px] lg:text-[35px] hidden lg:block'>I'm</p>
                 <p className='text-white font-[600] text-[55px] lg:text-[37px] leading-[60px] hidden lg:block'>Adetunji Adeyinka</p>
-                <hr className='light-blue border-[3px] w-[224px] sm:w-[204px] lg:w-[140px] mt-[35px] lg:mt-[20px] hidden lg:block'/>
+                <hr className='light-blue border-[3px] w-[224px] sm:w-[204px] lg:w-[140px] mt-[35px] lg:mt-[20px] hidden lg:block animate-line'/>
                 <div className='lg:w-[360px] xl:w-[450px] text-center lg:text-left mx-auto font-light text-[25px] lg:text-[16px] xl:text-[20px] xl:leading-[30px] 2xl:leading-[33px]'>
                   <p className='mt-[20px] lg:mt-[40px]'>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius porro deserunt quod, totam fugit architecto vero quae, explicabo deleniti minima, ratione iste repellendus officia. Nisi, 
@@ -54,7 +54,9 @@ const index : NextPage = () => {
             </div>
             <div className='lg:absolute lg:top-[200px] xl:top-[150px] right-[50px]'>
               <div className='hidden lg:flex lg:flex-col mt-5 lg:space-y-[30px] xl:mt-[80px]'>
-                <div className='border-l-white border-l-[1px] h-[70px] lg:ml-[30px]'/>
+                <div className='h-[70px]'>
+                  <div className='border-l-white border-l-[1px] h-full lg:ml-[30px] animate-social-line'/>
+                </div>
                 <div className="mx-auto flex flex-col space-y-[40px]">
                   <div className='w-14 h-14 flex hoverAnimation items-center justify-center'>
                     <Link href="https://www.facebook.com/adetunji.adeyinka.1238" passHref>
@@ -78,7 +80,9 @@ const index : NextPage = () => {
                   </Link>
                   </div>                  
                 </div>
-                <div className='border-l-white border-l-[1px] h-[70px] lg:ml-[30px]'/>
+                <div className='h-[70px]'>
+                  <div className='border-l-white border-l-[1px] h-full lg:ml-[30px] animate-social-line'/>
+                </div>
               </div>
             </div>
           </div>

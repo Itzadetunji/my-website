@@ -122,7 +122,7 @@ div:hover + .arrow
 
 .animate-arrow-div:hover .animate-arrow {
   position: relative;
-  animation: arrowOnHover 1s ease-in-out infinite;
+  animation: arrow 1s ease-in-out infinite;
 }
 
 @keyframes arrow {
@@ -136,13 +136,34 @@ div:hover + .arrow
   }
 }
 
-@keyframes arrowOnHover {
+.animate-line {
+  position: relative;
+  animation: animate-line 5s ease-in-out infinite;
+}
+
+@keyframes animate-line {
   0%,
   100% {
-    left: 0;
+    width: 0;
   }
 
   50% {
-    left: 8px;
+    width: 140px;
+  }
+}
+
+.animate-line-sm{
+  position: relative;
+  animation: animate-line-sm 5s ease-in-out infinite;
+} 
+
+@keyframes animate-line-sm {
+  0%,
+  100% {
+    width: 0;
+  }
+
+  50% {
+    width: 204px;
   }
 }
