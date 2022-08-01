@@ -1,14 +1,5 @@
 import { NextPage } from 'next'
 import React from 'react'
-import Button from './components/Button'
-import Footer from './components/Footer'
-import Navbar from './components/Navbar'
-import ServiceCard from './components/ServiceCard'
-import WorkProcess from './components/WorkProcess'
-import ParticleComponent from './components/ParticleComponent'
-import TestimonialCard from './components/TestimonialCard'
-import TechStack from './components/TechStack'
-import Social_Links from './components/SocialLinks'
 import Link from 'next/link'
 
 const index: NextPage = () => {
