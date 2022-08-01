@@ -82,11 +82,11 @@ const TechStack: NextPage = () => {
       name: "HTML5"
     },
     {
-      path: "../icons/stack-icons/mysql.svg",
+      path: "../icons/stack-icons/Mysql.svg",
       name: "CSS3"
     },
     {
-      path: "../icons/stack-icons/mongodb.svg",
+      path: "../icons/stack-icons/Mongodb.svg",
       name: "Javascript"
     },
     {
