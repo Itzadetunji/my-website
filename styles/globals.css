@@ -167,3 +167,38 @@ div:hover + .arrow
     width: 204px;
   }
 }
+
+.animate-social-line {
+  position: relative;
+  animation: animate-social-line 5s ease-in-out infinite;
+} 
+
+@keyframes animate-social-line {
+  0%,
+  100% {
+    height: 0;
+  }
+
+  50% {
+    height: 70px;
+  }
+}
+.animate-social-line-reversed {
+  position: relative;
+  animation: animate-social-line-reversed 5s ease-in-out infinite;
+} 
+
+.line-reversed{
+  transform: scaleY(-1);
+}
+
+@keyframes animate-social-line-reversed {
+  0%,
+  100% {
+    height: 0;
+  }
+
+  50% {
+    height: 70px;
+  }
+}
