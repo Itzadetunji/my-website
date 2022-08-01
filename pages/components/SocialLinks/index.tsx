@@ -23,7 +23,9 @@ const Social_Links: NextPage = () => {
           </a>
         </Link>
       </div>
-      <hr className='border w-[70px] my-[15px]'/>
+      <div className='w-[70px] my-[15px]'>
+        <hr className='border animate-line'/>
+      </div>
     </div>
   )
 }

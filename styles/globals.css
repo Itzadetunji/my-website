@@ -167,22 +167,11 @@ div:hover + .arrow
     height: 100%;
   }
 }
-.animate-social-line-reversed {
-  position: relative;
-  animation: animate-social-line-reversed 5s ease-in-out infinite;
-} 
 
 .line-reversed{
   transform: scaleY(-1);
 }
 
-@keyframes animate-social-line-reversed {
-  0%,
-  100% {
-    height: 0;
-  }
-
-  50% {
-    height: 100%;
-  }
+.line-flipped{
+  transform: scaleX(-1);
 }

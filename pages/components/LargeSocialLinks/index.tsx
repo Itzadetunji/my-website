@@ -27,7 +27,9 @@ const index: NextPage = () => {
           <p className='w-[350px] xl:w-[495px] text-white lg:text-[22px] font-[400]'>My handle is itzadetunji on all social media 😊. Lets give each other a follow 🤗</p>
           <div className='mt-[60px]'>
             <div className="flex mt-5 space-x-[30px] mx-auto justify-center">
-              <div className='border w-[70px] h-0 my-[10px] xl:my-[13px]'/>
+              <div className='h-0 my-[10px] w-[70px] xl:my-[13px]'>
+                <div className='border animate-line'/>
+              </div>
               <div className="mx-auto flex flex-row space-x-[10px] -mt-[17px]">
                 <div className='w-14 h-14 flex hoverAnimation items-center justify-center'>
                   <Link href="https://www.facebook.com/adetunji.adeyinka.1238" passHref>
@@ -51,7 +53,9 @@ const index: NextPage = () => {
                 </Link>
                 </div>                  
               </div>
-              <div className='border w-[70px] h-0 my-[10px] xl:my-[13px]'/>
+              <div className='h-0 my-[10px] w-[70px] xl:my-[13px] line-flipped'>
+                <div className='border animate-line'/>
+              </div>
             </div>
           </div>
         </div>
