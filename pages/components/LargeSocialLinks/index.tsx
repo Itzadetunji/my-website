@@ -18,7 +18,7 @@ const index: NextPage = () => {
             <a href='/contact'>
               <div className={`rounded-full text-center items-center justify-center grey w-[180px] h-[60.07px] custom-shadow duration-500 ease-in delay-[10ms] flex space-x-[8px] animate-arrow-div`}>
                 <p className='text-[18px] text-white'>Legooo</p>
-                <img src="./icons/arrow.svg" alt="" className='w-[30px] animate-arrow'/>
+                <img src="/icons/arrow.svg" alt="" className='w-[30px] animate-arrow'/>
               </div>
             </a>
           </div>

@@ -44,12 +44,12 @@ const index : NextPage = () => {
                   <div className='hidden lg:block mt-[20px]'>
                     {/* <div className='w-[200px] h-[72.3px] grey rounded-full flex space-x-3 hovering-arrow mt-[30px]'>
                       <p className='text-[16px]'>Know more</p>
-                      <img src="./icons/arrow.svg" alt="" className='arrow animate-arrow'/>
+                      <img src="/icons/arrow.svg" alt="" className='arrow animate-arrow'/>
                     </div> */}
                     <a href='/about'>
                       <div className={`rounded-full text-center items-center justify-center grey w-[180px] h-[60.07px] custom-shadow duration-500 ease-in delay-[10ms] flex space-x-[8px] animate-arrow-div`}>
                         <p className='text-[18px] text-white'>Know More</p>
-                        <img src="./icons/arrow.svg" alt="" className='w-[30px] animate-arrow'/>
+                        <img src="/icons/arrow.svg" alt="" className='w-[30px] animate-arrow'/>
                       </div>
                     </a>
                   </div>
