@@ -70,9 +70,9 @@ const about: NextPage = () => {
                       <p className='text-[16px]'>Know more</p>
                       <img src="./icons/Arrow.svg" alt="" className='arrow animate-arrow'/>
                     </div> */}
-                    <a href='/about'>
+                    <a href='https://www.linkedin.com/in/adetunji-adeyinka-8aa5311b9/'>
                       <div className={`rounded-full text-center items-center justify-center grey w-[180px] h-[60.07px] custom-shadow duration-500 ease-in delay-[10ms] flex space-x-[8px] animate-arrow-div mt-[70px]`}>
-                        <p className='text-[18px] text-white'>Know More</p>
+                        <p className='text-[18px] text-white'>GET CV</p>
                         <img src="./icons/Arrow.svg" alt="" className='w-[30px] animate-arrow'/>
                       </div>
                     </a>
