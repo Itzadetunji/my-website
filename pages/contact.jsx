@@ -1,17 +1,15 @@
-import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import styles from '../styles/Home.module.css'
 import Footer from './components/Footer';
 import Navbar from './components/Navbar'
-import ParticleComponent from './components/ParticleComponent'
 import Social_Links from './components/SocialLinks'
 import Button from './components/Button'
 import PortfolioCard from './components/PortfolioCard'
 import Link from 'next/link'
 
-const contact : NextPage = () => {
+const contact = () => {
   const [contactFormData, setContactFormData] = useState({
 		name: "",
 		email: "",

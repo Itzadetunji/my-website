@@ -5,7 +5,6 @@ import { useEffect } from 'react'
 import styles from '../styles/Home.module.css'
 import Footer from './components/Footer';
 import Navbar from './components/Navbar'
-import ParticleComponent from './components/ParticleComponent'
 import SocialLinks from './components/SocialLinks'
 import Button from './components/Button'
 import PortfolioCard from './components/PortfolioCard'
