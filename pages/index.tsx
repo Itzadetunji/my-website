@@ -19,7 +19,7 @@ const Index: NextPage = () => {
 			<Navbar />
 			<div className="mt-[50px] lg:mx-[60px]">
 				<div className="mx-auto justify-center">
-					<div className="mx-[35px] lg:mx-0">
+					<div className="mx-[15px] lg:mx-0">
 						<div className="lg:hidden">
 							<p className="text-white font-[600] text-[55px]">
 								I&apos;m
