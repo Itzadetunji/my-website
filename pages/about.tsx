@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable @next/next/no-img-element */
 import { NextPage } from "next";
 import React from "react";
 import Button from "./components/Button";
@@ -285,4 +287,4 @@ const About: NextPage = () => {
 	);
 };
 
-export default about;
+export default About;

@@ -22,7 +22,7 @@ const Index: NextPage = () => {
 					<div className="mx-[35px] lg:mx-0">
 						<div className="lg:hidden">
 							<p className="text-white font-[600] text-[55px]">
-								I'm
+								I&apos;m
 							</p>
 							<p className="text-white font-[600] text-[55px] leading-[60px]">
 								Adetunji Adeyinka
@@ -39,7 +39,7 @@ const Index: NextPage = () => {
 							/>
 							<div className="mt-[100px] lg:mt-[0px] text-center lg:text-left">
 								<p className="text-white font-[600] text-[55px] lg:text-[35px] hidden lg:block">
-									I'm
+									I&apos;m
 								</p>
 								<p className="text-white font-[600] text-[55px] lg:text-[37px] leading-[60px] hidden lg:block">
 									Adetunji Adeyinka
@@ -72,7 +72,7 @@ const Index: NextPage = () => {
                       <p className='text-[16px]'>Know more</p>
                       <img src="/icons/arrow.svg" alt="" className='arrow animate-arrow'/>
                     </div> */}
-										<a href="/about">
+										<Link href={"/about"}>
 											<div
 												className={`rounded-full text-center items-center justify-center grey w-[180px] h-[60.07px] custom-shadow duration-500 ease-in delay-[10ms] flex space-x-[8px] animate-arrow-div`}
 											>
@@ -85,7 +85,7 @@ const Index: NextPage = () => {
 													className="w-[30px] animate-arrow"
 												/>
 											</div>
-										</a>
+										</Link>
 									</div>
 								</div>
 							</div>
@@ -125,4 +125,4 @@ const Index: NextPage = () => {
 		</>
 	);
 };
-export default index;
+export default Index;

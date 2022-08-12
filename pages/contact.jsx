@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
 import Image from "next/image";
 import { useEffect, useState } from "react";
@@ -61,7 +62,7 @@ const Contact = () => {
 				<div className="">
 					<div className="mx-[30px] md:mx-[60px] lg:mx-[60px]">
 						<p className="text-white font-[600] text-[40px]">
-							Let's chat
+							Let&apos;s chat
 						</p>
 						<hr className="light-blue border-[3px] w-[85px] mt-[16px]" />
 					</div>
@@ -211,4 +212,4 @@ const Contact = () => {
 		</>
 	);
 };
-export default contact;
+export default Contact;

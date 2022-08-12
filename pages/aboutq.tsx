@@ -84,7 +84,7 @@ const about: NextPage = () => {
 								</p>
 								<a
 									href="https://www.linkedin.com/in/adetunji-adeyinka-8aa5311b9/"
-									target="_blank"
+									target="_blank" rel="noreferrer"
 								>
 									<div
 										className={`rounded-full text-center items-center justify-center grey w-[180px] h-[60.07px] custom-shadow duration-500 ease-in delay-[10ms] flex space-x-[8px] mt-[90px] animate-arrow-div`}

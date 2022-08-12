@@ -82,4 +82,4 @@ const Portfolio: NextPage = () => {
 		</>
 	);
 };
-export default portfolio;
+export default Portfolio;
