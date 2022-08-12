@@ -12,6 +12,9 @@
 /.next/
 /out/
 
+# readme content
+/images
+
 # production
 /build
 
