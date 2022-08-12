@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import NavItem from "./NavItem";
 
-const index: NextPage = () => {
+const Index: NextPage = () => {
 	const router = useRouter().pathname;
 	const [activeHam, setActiveHam] = useState(false);
 	useEffect(() => {
@@ -190,4 +190,4 @@ const index: NextPage = () => {
 	);
 };
 
-export default index;
+export default Index;

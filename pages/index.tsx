@@ -74,7 +74,7 @@ const Index: NextPage = () => {
                     </div> */}
 										<Link href={"/about"}>
 											<div
-												className={`rounded-full text-center items-center justify-center grey w-[180px] h-[60.07px] custom-shadow duration-500 ease-in delay-[10ms] flex space-x-[8px] animate-arrow-div`}
+												className={`rounded-full text-center items-center justify-center grey w-[180px] h-[60.07px] custom-shadow duration-500 ease-in delay-[10ms] flex space-x-[8px] animate-arrow-div cursor-pointer`}
 											>
 												<p className="text-[18px] text-white">
 													Know More
