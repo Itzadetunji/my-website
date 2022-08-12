@@ -15,7 +15,7 @@ const TestimonialCard: React.FC<cardProps> = ({
 	description,
 }) => {
 	return (
-		<div className="grey w-[280px] sm:w-[334px] md:w-[300px] lg:w-[300px] rounded-[30px] mx-auto custom-shadow duration-500 ease-in delay-[10ms] pb-[20px]">
+		<div className="grey w-[90] xxs:w-[280px] sm:w-[334px] md:w-[300px] lg:w-[300px] rounded-[30px] mx-auto custom-shadow duration-500 ease-in delay-[10ms] pb-[20px]">
 			<div className="flex">
 				<img
 					src={`/images/${imagePath}`}

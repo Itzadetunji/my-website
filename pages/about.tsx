@@ -49,9 +49,9 @@ const About: NextPage = () => {
 	return (
 		<>
 			<Navbar />
-			<div className="mt-[50px] mx-[30px]">
-				<div className="mx-auto justify-center">
-					<div className="mx-[35px] lg:mx-[30px]">
+			<div className="mt-[50px]">
+				<div className="mx-[15px]">
+					<div className="lg:mx-[30px]">
 						<div className="lg:hidden">
 							<p className="text-white font-[600] text-[55px] leading-[60px]">
 								About Me
@@ -118,7 +118,7 @@ const About: NextPage = () => {
 						</div>
 					</div>
 					<SideSocialLinks />
-					<div className="mx-[30px]">
+					<div className="xs:mx-[30px]">
 						<div className="mt-[50px] lg:hidden">
 							<Button
 								link={
@@ -161,7 +161,7 @@ const About: NextPage = () => {
 							/>
 						</div>
 					</div>
-					<div className="mx-[30px]">
+					<div className="xs:mx-[30px]">
 						<div className="mt-[100px]">
 							<p className="text-white font-[600] text-[40px]">
 								My Work Process
@@ -200,7 +200,7 @@ const About: NextPage = () => {
 							/>
 						</div>
 					</div>
-					<div className="mx-[30px]">
+					<div className="xs:mx-[30px]">
 						<div className="mt-[100px]">
 							<p className="text-white font-[600] text-[40px]">
 								What People Say About Me
@@ -264,14 +264,14 @@ const About: NextPage = () => {
 							</div>
 						</div>
 					</div>
-					<div className="mt-[100px] mx-[30px]">
+					<div className="mt-[100px] xs:mx-[30px]">
 						<p className="text-white font-[600] text-[40px]">
 							My Tech Stack
 						</p>
 						<div className="w-[55px] mt-[20px]">
 							<hr className="light-blue border-[3px] animate-line" />
 						</div>
-						<div className="mt-[36px] -mx-[60px]">
+						<div className="mt-[36px] xs:-mx-[40px]">
 							<TechStack />
 						</div>
 					</div>
