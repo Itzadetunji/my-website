@@ -114,3 +114,64 @@ div:hover + .arrow
 {
   width: 100px;
 }
+
+.animate-arrow {
+  position: relative;
+  animation: arrow 2s ease-in-out infinite;
+}
+
+.animate-arrow-div:hover .animate-arrow {
+  position: relative;
+  animation: arrow 1s ease-in-out infinite;
+}
+
+@keyframes arrow {
+  0%,
+  100% {
+    left: 0;
+  }
+
+  50% {
+    left: 8px;
+  }
+}
+
+.animate-line {
+  position: relative;
+  animation: animate-line 5s ease-in-out infinite;
+}
+
+@keyframes animate-line {
+  0%,
+  100% {
+    width: 0;
+  }
+
+  50% {
+    width: 100%;
+  }
+}
+
+.animate-social-line {
+  position: relative;
+  animation: animate-social-line 5s ease-in-out infinite;
+} 
+
+@keyframes animate-social-line {
+  0%,
+  100% {
+    height: 0;
+  }
+
+  50% {
+    height: 100%;
+  }
+}
+
+.line-flipped{
+  transform: scaleY(-1);
+}
+
+.line-reversed{
+  transform: scaleX(-1);
+}
