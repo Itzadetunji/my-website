@@ -10,7 +10,7 @@ import Button from "./components/Button";
 import Link from "next/link";
 import SideSocialLinks from "./components/SideSocialLinks";
 
-const index: NextPage = () => {
+const Index: NextPage = () => {
 	useEffect(() => {
 		console.log("I Only run once (When the component gets mounted)");
 	}, []);

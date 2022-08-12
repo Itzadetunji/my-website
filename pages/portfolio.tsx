@@ -11,7 +11,7 @@ import PortfolioCard from "./components/PortfolioCard";
 import Link from "next/link";
 import LargeSocialLinks from "./components/LargeSocialLinks";
 
-const portfolio: NextPage = () => {
+const Portfolio: NextPage = () => {
 	return (
 		<>
 			{/* <ParticleComponent/> */}

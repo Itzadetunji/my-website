@@ -12,7 +12,7 @@ import Link from "next/link";
 import LargeSocialLinks from "./components/LargeSocialLinks";
 import SideSocialLinks from "./components/SideSocialLinks";
 
-const about: NextPage = () => {
+const About: NextPage = () => {
 	const TestimonialCardContents = [
 		{
 			imagepath: "/images/testimonial1.png",
