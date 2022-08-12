@@ -138,7 +138,7 @@ const Index: NextPage = () => {
 							</p>
 						</div>
 					</Link>
-					<Link href={"/portfolio"}>
+					
 						<div
 							className={`border-r-[6px] ${
 								router.includes("portfolio")
@@ -147,23 +147,24 @@ const Index: NextPage = () => {
 							} hover:border-r-[#5CBEFF] transition-all duration-300 cursor-pointer`}
 						>
 							<p className="pr-[20px] py-[15px] hover:text-[#5CBEFF] transition-all duration-300 text-[22px] float-right">
-								Portfolio
+								<Link href={"/portfolio"}>Portfolio</Link>
 							</p>
 						</div>
-					</Link>
-					<Link href={"/contact"}>
-						<div
-							className={`border-r-[6px] ${
-								router.includes("contact")
-									? "border-r-[#5CBEFF] text-[#5CBEFF]"
-									: "text-white border-r-[#0A141D]"
-							} hover:border-r-[#5CBEFF] transition-all duration-300 cursor-pointer`}
-						>
+					
+
+					<div
+						className={`border-r-[6px] ${
+							router.includes("contact")
+								? "border-r-[#5CBEFF] text-[#5CBEFF]"
+								: "text-white border-r-[#0A141D]"
+						} hover:border-r-[#5CBEFF] transition-all duration-300 cursor-pointer`}
+					>
+						<Link href={"/contact"}>
 							<p className="pr-[20px] py-[15px] hover:text-[#5CBEFF] transition-all duration-300 text-[22px] float-right">
 								Contact
 							</p>
-						</div>
-					</Link>
+						</Link>
+					</div>
 				</div>
 				<div className="flex space-x-[30px] pl-[43%] mt-[50px]">
 					<Link href={"https://github.com/itzadetunji"}>

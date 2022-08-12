@@ -9,15 +9,13 @@ interface NavProps {
 
 const index: React.FC<NavProps> = ({ active, title }) => {
 	return (
-		<Link href={""}>
-			<p
-				className={`${
-					active && "text-[#5CBEFF]"
-				} hover:text-[#5CBEFF] transition-all duration-300`}
-			>
-				{title}
-			</p>
-		</Link>
+		<p
+			className={`${
+				active && "text-[#5CBEFF]"
+			} hover:text-[#5CBEFF] transition-all duration-300`}
+		>
+			{title}
+		</p>
 	);
 };
 
