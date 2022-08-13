@@ -9,7 +9,7 @@ interface cardProps {
 
 const ServiceCard: React.FC<cardProps> = ({ iconPath, title, description }) => {
 	return (
-		<div className="grey xs:w-[300px] sm:w-[367px] lg:w-[290px] xl:w-[367px] rounded-[30px] mx-auto custom-shadow duration-500 ease-in delay-[10ms]">
+		<div className="grey xs:w-[300px] sm:w-[367px] lg:w-[290px] xl:w-[367px] rounded-[10px] mx-auto custom-shadow duration-[300ms] ease-in delay-[10ms]">
 			<div className="flex flex-col">
 				<img
 					src={`/icons/service-icons/${iconPath}`}

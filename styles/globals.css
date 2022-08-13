@@ -121,7 +121,6 @@ div:hover + .arrow
 }
 
 .animate-arrow-div:hover .animate-arrow {
-  position: relative;
   animation: arrow 1s ease-in-out infinite;
 }
 
@@ -174,4 +173,72 @@ div:hover + .arrow
 
 .line-reversed{
   transform: scaleX(-1);
+}
+
+.content__item {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	z-index: 1;
+	pointer-events: none;
+  border-radius: 12px;
+  color: white;
+}
+
+.button {
+	pointer-events: auto;
+	cursor: pointer;
+	border: none;
+	padding: 1.5rem 3rem;
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	position: relative;
+	display: flex;
+  align-items: center;
+	justify-content: center;
+}
+
+.button::before,
+.button::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.button--anthe {
+	color: #fff;
+	background: none;
+}
+
+.button--anthe::before {
+	content: '';
+	background: #5CBEFF;
+	-webkit-clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+	clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+	transition: clip-path 0.4s cubic-bezier(0.2, 1, 0.8, 1), -webkit-clip-path 0.4s cubic-bezier(0.2, 1, 0.8, 1);
+}
+
+.button--anthe:hover::before {
+	background: #5CBEFF;
+	-webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+	clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+
+.button--anthe p {
+  color: white;
+	/* display: block; */
+	/* mix-blend-mode: difference; */
+	transition: transform 0.4s cubic-bezier(0.2, 1, 0.8, 1);
+}
+
+.button--anthe:hover p {
+	transform: translate3d(-10px,0,0);
 }

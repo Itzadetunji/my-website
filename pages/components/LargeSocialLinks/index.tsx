@@ -6,7 +6,9 @@ const index: NextPage = () => {
 	return (
 		<div className="hidden lg:block mt-[120px] mx-[60px]">
 			<div>
-				<p className="text-white font-[600] text-[40px]">Let&apos;s Talk</p>
+				<p className="text-white font-[600] text-[40px]">
+					Let&apos;s Talk
+				</p>
 				<div className="w-[85px] mt-[20px]">
 					<hr className="light-blue border-[3px] animate-line" />
 				</div>
@@ -18,9 +20,21 @@ const index: NextPage = () => {
 						on something great 😅
 					</p>
 					<div className="mt-[60px]">
+						{/* <ul className="content">
+							<li className="content__item">
+								<button className="button button--anthe flex">
+									<p>Initialize</p>
+									<img
+										src="/icons/arrow.svg"
+										alt=""
+										className="w-[30px] animate-arrow"
+									/>
+								</button>
+							</li>
+						</ul> */}
 						<Link href={"/contact"}>
 							<div
-								className={`rounded-full text-center items-center justify-center grey w-[180px] h-[60.07px] custom-shadow duration-500 ease-in delay-[10ms] flex space-x-[8px] animate-arrow-div`}
+								className={`text-center flex space-x-[8px] items-center justify-center grey w-[180px] h-[60.07px] custom-shadow duration-500 ease-in delay-[10ms] animate-arrow-div rounded-[4px] cursor-pointer`}
 							>
 								<p className="text-[18px] text-white">Legooo</p>
 								<img
